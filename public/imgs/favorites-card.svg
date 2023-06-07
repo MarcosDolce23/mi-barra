@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="133" viewBox="0 0 156 133">
+  <defs>
+    <filter id="Rectangle_22" x="0" y="0" width="156" height="133" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_22)">
+    <rect id="Rectangle_22-2" data-name="Rectangle 22" width="138" height="115" rx="15" transform="translate(7 7)" fill="#ffd084"/>
+  </g>
+  <path id="Path_83" data-name="Path 83" d="M-380.841,1899.166l-21.485,11.3,4.1-23.923L-415.6,1869.6l24.023-3.49,10.74-21.766,10.741,21.766,24.023,3.49-17.382,16.943,4.1,23.923Z" transform="matrix(0.966, -0.259, 0.259, 0.966, -64.967, -1852.891)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" opacity="0.14"/>
+  <text id="Favoritos" transform="translate(22 27)" fill="#fff" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.01em"><tspan x="0" y="21">Favoritos</tspan></text>
+  <text id="Tus_tragos_favoritos." data-name="Tus tragos favoritos." transform="translate(22 91)" fill="#fff" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.015em" opacity="0.69"><tspan x="0" y="12">Tus tragos favoritos.</tspan></text>
+  <path id="Path_86" data-name="Path 86" d="M-316.5,2087.5l6,6-6,6h0" transform="translate(438.5 -2054.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" opacity="0.9"/>
+</svg>
