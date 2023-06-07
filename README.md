@@ -25,21 +25,35 @@ Para poder integrar ambos proyectos (cordova y React.js) fue necesario:
 ```
 - Configurar el react dom par que sea cargado luego del evento cordova "deviceready".
 ```
-if (window.cordova) {
-  document.addEventListener('deviceready', () => {
-    root.render(
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    );
-  }, false);
-} else {
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
+function startApp() {
+    // window.StatusBar.hide();
+    // window.screen.orientation.lock('portrait');
+
+    var exitApp = false, intval = setInterval(function () { exitApp = false; }, 1000);
+    document.addEventListener("backbutton", function (e) {
+        e.preventDefault();
+        if (exitApp) {
+            clearInterval(intval)
+                (navigator.app && navigator.app.exitApp())
+        }
+        else {
+            exitApp = true
+            window.history.back();
+        }
+    }, false);
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+
+        window.StatusBar.overlaysWebView(true);
+        window.StatusBar.backgroundColorByHexString('#33000000');
+
 }
+
+if (window.cordova) {
+    document.addEventListener('deviceready', startApp, false);
+} else {
+    ReactDOM.render(<App />, document.getElementById('root'));
+};
 ```
 - Actualizar el package.json para que la aplicación utilice relative paths.
 ```
@@ -51,4 +65,3 @@ Para automatizar esta tarea agregué un script que se ejecutará mediante el hoo
   
 ## Otros
 Por el momento solo estamos desarrollando la aplicación para Android. Dado que el presupuesto es de $0.
-

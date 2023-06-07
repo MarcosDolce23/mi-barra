@@ -1,0 +1,181 @@
+.content {
+  margin: 0 15px;
+  padding: 0 15px;
+  background-color: #F6F5F9ed;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0px 3px 6px 0px #C1C0C0;
+  border-radius: 0px 0px 15px 15px;
+  font-size: 15px;
+  color: #636363;
+  opacity: 0.8;
+  height: 246%;
+}
+
+.content > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nameLabel {
+    width: 85%;
+    margin-top: .5rem;
+    padding-left: 20px;
+}
+
+.content > div > div {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  text-align: right;
+}
+
+.maincardCollapse {
+  height: 100px;
+  background: #CEC4F6;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0px 3px 6px 0px #C1C0C0;;
+}
+
+.secondcard {
+    display: inline-block;
+    height: 100px;
+    border-radius: 15px;
+    background: #907CE5;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.5em;
+}
+
+.thirdcard {
+    display: inline-block;
+    height: 100px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+  padding-left: 15px;
+  width: 40%;
+}
+
+.thirdcard p {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.plusCard {
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  background: transparent;
+  right: 0px;
+  /* background-image: url(../public/imgs/fernet.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3em;
+}
+
+.myCard {
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    overflow: unset !important;
+    padding-bottom: 20px;
+}
+
+.myCardHeader {
+    border-bottom: none;
+    padding: 0px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.line {
+  margin: 0px;
+  border: 0;
+  border-top: 2px solid white;
+}
+
+.light {
+  --primary: #907CE5;
+  --other: #907CE5;
+}
+
+
+/* label */
+label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 12px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+
+/* input */
+.input-checkbox {
+  display: none;
+}
+
+
+/* .design */
+.design {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #B1B1B1;
+  border-radius: 100%;
+  position: absolute;
+  right: 15px;
+  box-sizing: content-box;
+}
+
+.design::before,
+.design::after {
+  content: "";
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  position: absolute;
+  transform: scale(0);
+  transform-origin: center center;
+}
+
+.design:before {
+  background: var(--other);
+  opacity: 0;
+  transition: .3s;
+}
+
+.design::after {
+  background: var(--primary);
+  opacity: .4;
+  transition: .6s;
+}
+
+/* checked state */
+input:checked+.design::before {
+  opacity: 1;
+  transform: scale(.6);
+  background: var(--primary);
+}
+
+input:checked+.design {
+  border: 2px solid var(--primary);
+}
+
+
+input:checked+.design::after {
+  opacity: .1;
+  transform: scale(1.5);
+}
+
+.text-bebidas {display: none;}

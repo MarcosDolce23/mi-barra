@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314" height="131" viewBox="0 0 314 131">
+  <defs>
+    <filter id="Rectangle_20" x="0" y="0" width="314" height="131" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_20)">
+    <rect id="Rectangle_20-2" data-name="Rectangle 20" width="296" height="113" rx="15" transform="translate(7 7)" fill="#907ce5"/>
+  </g>
+  <g id="Group_12" data-name="Group 12" transform="translate(-131.434 -1939.64) rotate(-13)" opacity="0.14">
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="56.053" height="56.053" transform="translate(-291.167 1962.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    <path id="Path_82" data-name="Path 82" d="M-273.5,1972.5h16.709m-16.709,13.925h16.709m-16.709,13.924h16.709" transform="translate(6.566 3.924)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_1" data-name="Line 1" transform="translate(-277.821 1978.515)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_2" data-name="Line 2" transform="translate(-277.821 1989.192)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_3" data-name="Line 3" transform="translate(-277.821 2005.207)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <text id="Elije_tus_bebidas_y_obtiene_un_listado_de_todos_los_tragos_que_puedes_hacer." data-name="Elije tus bebidas y obtiene un listado de 
+todos los tragos que puedes hacer." transform="translate(26 72)" fill="#fff" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.02em" opacity="0.69"><tspan x="0" y="12">Elije tus bebidas y obtiene un listado de </tspan><tspan x="0" y="27">todos los tragos que puedes hacer.</tspan></text>
+  <path id="Path_87" data-name="Path 87" d="M-316.5,2087.5l6,6-6,6h0" transform="translate(596.5 -2054.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" opacity="0.9"/>
+  <text id="Mi_Barra" data-name="Mi Barra" transform="translate(26 24)" fill="#fff" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.02em"><tspan x="0" y="21">Mi Barra</tspan></text>
+</svg>

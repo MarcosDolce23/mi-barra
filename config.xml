@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.mibarra" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <hook type="before_prepare" src="scripts/prebuild.js" />
     <name>Mi Barra</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

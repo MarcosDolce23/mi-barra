@@ -1,0 +1,78 @@
+.trago-header {
+    height: 50vh;
+    background: #FFD084;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+}
+
+.trago-body {
+    border-radius: 15px;
+    transform: translateY(-30px);
+    background: white;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+.trago-body-div {
+    display: flex;
+}
+
+.name-trago {
+    font-size: 20px;
+    color: #636363;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+.img-favorite {
+    width: 2.5em;
+}
+
+.ingredientes-trago {
+    font-size: 16px;
+    color: #636363;
+}
+
+.div-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.content-item {
+    display: inline-block;
+    /* margin: auto 0; */
+    margin-top: 3px;
+}
+
+.content-list {
+    font-size: 14px;
+    color: #636363;
+    display: inline-block;
+}
+
+.number-item {
+    display: inline-block;
+    background: #E6EDFF;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #6750E3;
+    font-size: 12px;
+    line-height: 26px;
+    margin-right: 20px;
+}
+
+.trago-hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}

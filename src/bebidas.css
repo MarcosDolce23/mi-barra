@@ -1,0 +1,38 @@
+.main {
+    padding-bottom: 60px;
+}
+
+.card-bebidas {
+    margin: 15px;
+    padding: 5px 5px 15px 15px;
+    background: #CEC4F6;
+    min-height: 100px;
+    border-radius: 15px;
+}
+
+.cardText {
+    margin: 15px 10px 0px 0px;
+    display: inline-block;
+    background: #F6F5F9;
+    border-radius: 15px;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #636363;
+    box-shadow: 0px 2px 6px 0px #C1C0C0;
+}
+
+.deleteImage {
+    width: 2em;
+    position: absolute;
+    right: 15px;
+}
+
+.deleteIcon {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: center;
+    margin-left: 10px;
+}
