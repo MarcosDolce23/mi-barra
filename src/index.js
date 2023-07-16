@@ -338,11 +338,11 @@ function startApp() {
     document.addEventListener("backbutton", function (e) {
         e.preventDefault();
         if (exitApp) {
-            clearInterval(intval)
-                (navigator.app && navigator.app.exitApp())
+            clearInterval(intval);
+            (navigator.app && navigator.app.exitApp());
         }
         else {
-            exitApp = true
+            exitApp = true;
             window.history.back();
         }
     }, false);
