@@ -18,7 +18,7 @@ function execPostReactBuild(buildFolderPath, outputFolderPath) {
     return new Promise((resolve, reject) => {
         if (fs.existsSync(buildFolderPath)) {
             if (fs.existsSync(outputFolderPath)) {
-                fs.rmdir(outputFolderPath, {recursive: true, force: true}, (err) => {
+                fs.rm(outputFolderPath, { recursive: true, force: true }, (err) => {
                     if (err) {
                         reject(err);
                         return;
@@ -39,9 +39,8 @@ function execPostReactBuild(buildFolderPath, outputFolderPath) {
 }
 
 module.exports = () => {
-    const projectPath = path.resolve(process.cwd(), './node_modules/.bin/react-scripts');
     return new Promise((resolve, reject) => {
-        exec(`${projectPath} build`,
+        exec(`react-scripts build`,
             (error) => {
                 if (error) {
                     console.error(error);
