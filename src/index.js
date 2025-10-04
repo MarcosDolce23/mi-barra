@@ -69,7 +69,7 @@ class App extends React.Component {
                 {
                     name: "Estimulantes",
                     image: "url(imgs/bebidas-icons/Estimulantes.png)",
-                    drinks: ["Café Cold Brew","Energizante", "Té", "Té de Frutos"]
+                    drinks: ["Café Cold Brew", "Energizante", "Té", "Té de Frutos"]
                 },
                 {
                     name: "Verduras",
@@ -90,7 +90,7 @@ class App extends React.Component {
             return matches;
         }
 
-        function count_selectables(ingredientes,beverages) {
+        function count_selectables(ingredientes, beverages) {
             let selectable = 0;
             ingredientes.forEach(element => {
                 for (var i = 0; i < beverages.length; i++) {
@@ -117,8 +117,8 @@ class App extends React.Component {
 
         tragos.forEach(element => {
             let count = count_similarities(drinksList, element.ingredientes);
-            let aux = count_selectables(element.ingredientes,beverages);
-            let coincidenceRate = ( count * 100) / aux;
+            let aux = count_selectables(element.ingredientes, beverages);
+            let coincidenceRate = (count * 100) / aux;
             if (coincidenceRate > 65) {
                 drinksCount++;
                 coincidences.push(element);
@@ -209,23 +209,23 @@ class App extends React.Component {
 
     filtrarTragos(e) {
         var filter = e.target.value.toUpperCase();
-      
+
         var divs = document.getElementsByClassName("myCard");
         for (var i = 0; i < divs.length; i++) {
-          var a = divs[i].getElementsByClassName("h1-card")[0];
-      
-          if (a) {
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-              divs[i].style.display = "";
-            } else {
-              divs[i].style.display = "none";
-            }
-          }
-        }
-      
-      }
+            var a = divs[i].getElementsByClassName("h1-card")[0];
 
-// ========================================
+            if (a) {
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    divs[i].style.display = "";
+                } else {
+                    divs[i].style.display = "none";
+                }
+            }
+        }
+
+    }
+
+    // ========================================
 
     render() {
 
@@ -264,7 +264,7 @@ class App extends React.Component {
                     </Route>
                     <Route exact path="/tragos">
                         <Tragos
-                            tragos={ this.state.page === "" ? this.state.tragos : this.state.tragos.filter(a => a.clasificacion === this.state.page) }
+                            tragos={this.state.page === "" ? this.state.tragos : this.state.tragos.filter(a => a.clasificacion === this.state.page)}
                             onClick={(sel) => this.selectTrago(sel)}
                             onClick_favorite={(fav) => this.saveFavorite(fav)}
                             onChange={(e) => this.filtrarTragos(e)}
@@ -331,9 +331,6 @@ class App extends React.Component {
 // ========================================
 
 function startApp() {
-    // window.StatusBar.hide();
-    // window.screen.orientation.lock('portrait');
-
     var exitApp = false, intval = setInterval(function () { exitApp = false; }, 1000);
     document.addEventListener("backbutton", function (e) {
         e.preventDefault();
@@ -349,8 +346,8 @@ function startApp() {
 
     ReactDOM.render(<App />, document.getElementById('root'));
 
-        window.StatusBar.overlaysWebView(true);
-        window.StatusBar.backgroundColorByHexString('#33000000');
+    window.StatusBar.overlaysWebView(true);
+    window.StatusBar.backgroundColorByHexString('#33000000');
 
 }
 

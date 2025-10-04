@@ -16,7 +16,7 @@ class Tragos extends React.Component {
                         <Col>
                             <div className="searchcontainer">
                                 <div className="text">
-                                    <input  
+                                    <input
                                         type="text"
                                         placeholder="Busca tus bebidas"
                                         className="input"
@@ -29,10 +29,10 @@ class Tragos extends React.Component {
                 </Container>
                 <div className="list">
                     <ListaTragos
-                        tragos={this.props.tragos.sort((a,b) => a.name.localeCompare(b.name))}
+                        tragos={this.props.tragos.sort((a, b) => a.name.localeCompare(b.name))}
                         onClick={(sel) => this.props.onClick(sel)}
                         onClick_favorite={(fav) => this.props.onClick_favorite(fav)}
-                        ></ListaTragos>
+                    ></ListaTragos>
                 </div>
             </div>
         )

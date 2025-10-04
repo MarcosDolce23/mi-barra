@@ -1,7 +1,6 @@
 import React from 'react';
 import './bar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Container, Row, Col } from 'react-bootstrap';
 import Beverages from './beverages';
 import { Link } from 'react-router-dom';
 import BackButton from './backButton';

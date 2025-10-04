@@ -13,7 +13,7 @@ class ListaTragos extends React.Component {
 
         return (
             <Container style={this.props.tragos.length > 0 ? null : { backgroundImage: "url(imgs/no-tragos.svg)", backgroundRepeat: "no-repeat", backgroundPosition: "center", height: "290px" }}>
-                { this.props.tragos.map((item, i) => {
+                {this.props.tragos.map((item, i) => {
                     return (
                         <Row key={"1" + i}>
                             <Col>
@@ -31,7 +31,6 @@ class ListaTragos extends React.Component {
                                             className="plusCardTragos"
                                             onClick={() => this.props.onClick_favorite(item.name)}
                                             style={item.favorite === true ? { backgroundImage: "url(imgs/Boton_favoritos.svg)" } : { backgroundImage: "url(imgs/Favoritos-gris.svg)" }}
-                                        // style={{ backgroundImage: "url(imgs/plus-unselected.svg)" }}
                                         ></div>
                                     </div>
                                 </Card>
