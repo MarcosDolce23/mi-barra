@@ -1,17 +1,17 @@
 export function initializeFavorites() {
 
-    let tragos = [
+   let tragos = [
       {
-         "name":"Acapulco de Noche",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Acapulco de Noche",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Naranja",
             "Azúcar",
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter en una coctelera 60ml Tequila.",
             "Agregar 60ml Ron Blanco.",
             "Agregar 60ml de Jugo de Naranja y trozos de Hielo.",
@@ -19,21 +19,21 @@ export function initializeFavorites() {
             "Pasar la Naranja por el borde de la copa y colocarla boca abajo en un plato con azúcar, para realizar un escarchado.",
             "Vertir la mezcla de la coctelera en la copa."
          ],
-         "imagen":"url(imgs/tragos-icons/AcapulcoDeNoche.png)",
-         "headerImage":"imgs/tragos/Acapulco de noche.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/AcapulcoDeNoche.png)",
+         "headerImage": "imgs/tragos/Acapulcodenoche.svg",
+         "favorite": false
       },
       {
-         "name":"Agua de Valencia",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Agua de Valencia",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jugo de Naranja",
             "Ginebra",
             "Vodka",
             "Champagne",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter el 33% de una jarra con Jugo de Naranja natural.",
             "Agregar un 16% de Ginebra.",
             "Agregar otro 16% de Vodka.",
@@ -41,41 +41,41 @@ export function initializeFavorites() {
             "Revolver suavemente.",
             "Trasladar a la nevera donde la dejamos enfriar por un espacio de una hora antes de servir."
          ],
-         "imagen":"url(imgs/tragos-icons/AguadeValencia.png)",
-         "headerImage":"imgs/tragos/Agua de Valencia.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/AguadeValencia.png)",
+         "headerImage": "imgs/tragos/AguadeValencia.svg",
+         "favorite": false
       },
       {
-         "name":"Aldea Margarita",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Aldea Margarita",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Tequila Blanco",
             "Rubia Lager",
             "Limón",
             "Ají Molido",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Humedecer el borde de un vaso tipo pinta americana con el Limón.",
             "Recubrirlo con el ají molido.",
             "Verter 60ml de Tequila.",
             "Agregar 150ml de cerveza Rubia Lager.",
             "Revolver suavemente."
          ],
-         "imagen":"url(imgs/tragos-icons/AldeaMargarita.png)",
-         "headerImage":"imgs/tragos/Aldea Margarita.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/AldeaMargarita.png)",
+         "headerImage": "imgs/tragos/AldeaMargarita.svg",
+         "favorite": false
       },
       {
-         "name":"Algonquin",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Algonquin",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Whisky",
             "Jugo de Ananá",
             "Vermouth Seco",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "En una coctelera agregar Hielo.",
             "Agregar 1 parte de Whisky.",
             "Agregar 1/2 parte de Jugo de Ananá.",
@@ -83,20 +83,20 @@ export function initializeFavorites() {
             "Agitar durante unos segundos.",
             "Servir en un vaso utilizando el mismo Hielo de la coctelera."
          ],
-         "imagen":"url(imgs/tragos-icons/Algonquin.png)",
-         "headerImage":"imgs/tragos/Algonquin.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Algonquin.png)",
+         "headerImage": "imgs/tragos/Algonquin.svg",
+         "favorite": false
       },
       {
-         "name":"Amanecer moscovita",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Amanecer moscovita",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Menta",
             "Curaçao Rojo",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Dentro de una copa verter Hielo.",
             "Agregar 12,5ml de Curaçao Rojo.",
             "Agregar 15ml de Menta.",
@@ -104,76 +104,76 @@ export function initializeFavorites() {
             "Revolver muy bien.",
             "Decorar con una Guinda y hojas de Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/amanecerMoscovita.png)",
-         "headerImage":"imgs/tragos/amanecer moscovita.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/amanecerMoscovita.png)",
+         "headerImage": "imgs/tragos/amanecermoscovita.svg",
+         "favorite": false
       },
       {
-         "name":"Americanino Gancia",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Americanino Gancia",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Spritz Gancia",
             "Soda",
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
-            "Agregar en un vaso de trago largo Hielo.", 
-            "Agregar 1 parte de Americano Gancia.", 
+         "preparacion": [
+            "Agregar en un vaso de trago largo Hielo.",
+            "Agregar 1 parte de Americano Gancia.",
             "Agregar 1 parte de Spritz Gancia.",
             "Completar con Soda.",
             "Decorar con una piel de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/AmericanoGancia.png)",
-         "headerImage":"imgs/tragos/Americano (gancia).svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/AmericanoGancia.png)",
+         "headerImage": "imgs/tragos/Americano(gancia).svg",
+         "favorite": false
       },
       {
-         "name":"Americanino Campari",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Americanino Campari",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Campari",
             "Vermouth Rojo",
             "Soda",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en un vaso 3 hielos.",
             "Agregar 1 parte de Campari.",
             "Agregar 1 parte de Vermouth Rojo.",
             "Completar con un golpe de Soda.",
             "Decorar con una rodaja de Naranja o piel de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/AmericanoCampari.png)",
-         "headerImage":"imgs/tragos/Americano (campari).svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/AmericanoCampari.png)",
+         "headerImage": "imgs/tragos/Americano(campari).svg",
+         "favorite": false
       },
       {
-         "name":"Apple Gancia",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Apple Gancia",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Americano Gancia",
             "Vodka",
             "Jugo de Manzana",
             "Manzana",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en un vaso de trago largo Hielo.",
             "Agregar 2 partes de Americano Gancia.",
             "Agregar 2 partes de Jugo de Manzana.",
             "Agregar 6 partes de Vodka.",
             "Decorar con una rodaja de Manzana Verde."
          ],
-         "imagen":"url(imgs/tragos-icons/AppleGancia.png)",
-         "headerImage":"imgs/tragos/Apple Gancia.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/AppleGancia.png)",
+         "headerImage": "imgs/tragos/AppleGancia.svg",
+         "favorite": false
       },
       {
-         "name":"Ártico",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Ártico",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Limón",
             "Jugo de Aceituna",
@@ -182,7 +182,7 @@ export function initializeFavorites() {
             "Agua Tónica",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Enfríar una copa estilo margarita.",
             "Agregar 60ml de Tequila.",
             "Agregar 15ml de Jugo de Limón.",
@@ -192,20 +192,20 @@ export function initializeFavorites() {
             "Remover todo sin agitar.",
             "Decorar con una rodaja de Lima."
          ],
-         "imagen":"url(imgs/tragos-icons/Artico.png)",
-         "headerImage":"imgs/tragos/Artico.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Artico.png)",
+         "headerImage": "imgs/tragos/Artico.svg",
+         "favorite": false
       },
       {
-         "name":"Bacardí",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Bacardí",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Jugo de Lima",
             "Granadina",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en una coctelera abundante Hielo.",
             "Agregar 45ml de Ron Blanco.",
             "Agregar 20ml de Jugo de Lima.",
@@ -216,21 +216,21 @@ export function initializeFavorites() {
             "Servir en una copa de Martini sin Hielo previamente enfriada.",
             "Adornar la copa con una rodajita de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/Bacardi.png)",
-         "headerImage":"imgs/tragos/Bacardi.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Bacardi.png)",
+         "headerImage": "imgs/tragos/Bacardi.svg",
+         "favorite": false
       },
       {
-         "name":"Bed Of Roses",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Bed Of Roses",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Jugo de Limón",
             "Granadina",
             "Jugo de Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en una coctelera Hielo.",
             "Agregar 45ml de Jägermeister.",
             "Agregar 60ml de Jugo de Limón.",
@@ -240,39 +240,39 @@ export function initializeFavorites() {
             "Servir en un vaso de margarita, previamente enfriado.",
             "Adornar con media rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/BedOfRoses.png)",
-         "headerImage":"imgs/tragos/Bed of roses.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BedOfRoses.png)",
+         "headerImage": "imgs/tragos/Bedofroses.svg",
+         "favorite": false
       },
       {
-         "name":"Beer Mimosa",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Beer Mimosa",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "American IPA",
             "Jugo de Pomelo",
             "Pomelo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter en un vaso tipo pinta americana 1/3 de la cerveza.",
             "Completar con en Jugo de Pomelo.",
             "Revolver suavemente.",
             "Decorar con la piel del Pomelo."
          ],
-         "imagen":"url(imgs/tragos-icons/BeerMimosa.png)",
-         "headerImage":"imgs/tragos/Beer Mimosa.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BeerMimosa.png)",
+         "headerImage": "imgs/tragos/BeerMimosa.svg",
+         "favorite": false
       },
       {
-         "name":"Between The Sheets",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Between The Sheets",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Brandy",
             "Triple Sec",
             "Jugo de Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en una coctelera Hielo.",
             "Agregar 30ml de Ron Blanco.",
             "Agregar 30ml coñac o Brandy.",
@@ -281,20 +281,20 @@ export function initializeFavorites() {
             "Servir en una copa de Martini, o en una copa de Champagne, enfriada previamente pasando por un colador.",
             "Decorar el borde de la copa con la piel de un Limón o una Lima."
          ],
-         "imagen":"url(imgs/tragos-icons/BetweenTheSheets.png)",
-         "headerImage":"imgs/tragos/Between the sheets.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BetweenTheSheets.png)",
+         "headerImage": "imgs/tragos/Betweenthesheets.svg",
+         "favorite": false
       },
       {
-         "name":"Black Blood",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Black Blood",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Jägermesiter",
             "Gaseosa Lima Limón",
             "Curaçao Azul",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter en una coctelera 2/4 partes de Curaçao Azul.",
             "Agregar 1/4 parte de licor Jägermesiter.",
             "Agregar 1/4 parte de gaseosa sabor Limón.",
@@ -302,19 +302,19 @@ export function initializeFavorites() {
             "Agitar durante unos segundos.",
             "Servir el contenido en una elegante copa de Martini."
          ],
-         "imagen":"url(imgs/tragos-icons/BlackBlood.png)",
-         "headerImage":"imgs/tragos/BLACK BLOOD.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BlackBlood.png)",
+         "headerImage": "imgs/tragos/BLACKBLOOD.svg",
+         "favorite": false
       },
       {
-         "name":"Black Orchid",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Black Orchid",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Vodka",
             "Jugo de Limón",
             "Licor Creme de Violette"
          ],
-         "preparacion":[
+         "preparacion": [
             "Colocar dentro de una coctelera 50ml de Vodka.",
             "Agregar 25ml de Jugo de Limón.",
             "Agregar 50ml de Licor Creme de Violette.",
@@ -322,37 +322,37 @@ export function initializeFavorites() {
             "Luego servir en una copa llena de Hielo.",
             "Decorar el trago con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/blackOrchid.png)",
-         "headerImage":"imgs/tragos/black orchid.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/blackOrchid.png)",
+         "headerImage": "imgs/tragos/blackorchid.svg",
+         "favorite": false
       },
       {
-         "name":"Black Velvet",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Black Velvet",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Stout",
             "Champagne"
          ],
-         "preparacion":[
+         "preparacion": [
             "LLenar una copa para Champagne con la mitad de Champagne.",
             "Llenar la otra mitad con cerveza Stout.",
             "Decorar con una cereza, dejándola caer hasta el fondo."
          ],
-         "imagen":"url(imgs/tragos-icons/BlackVelvet.png)",
-         "headerImage":"imgs/tragos/Black Velvet.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BlackVelvet.png)",
+         "headerImage": "imgs/tragos/BlackVelvet.svg",
+         "favorite": false
       },
       {
-         "name":"Blackjack cocktail",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Blackjack cocktail",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Whisky",
             "Jugo de Limón",
             "Licor de Café",
             "Triple Sec",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo picado.",
             "Agregar 45ml de Whisky.",
             "Agregar 30ml de Licor de Café.",
@@ -362,14 +362,14 @@ export function initializeFavorites() {
             "Servir en una copa con Hielo.",
             "Decorar con una tira de Naranja o Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/BlackjackCocktail.png)",
-         "headerImage":"imgs/tragos/Blackjack cocktail.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BlackjackCocktail.png)",
+         "headerImage": "imgs/tragos/Blackjackcocktail.svg",
+         "favorite": false
       },
       {
-         "name":"Bloody Mary",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Bloody Mary",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Jugo de Tomate",
             "Jugo de Limón",
@@ -379,7 +379,7 @@ export function initializeFavorites() {
             "Apio",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir dentro de una coctelera Hielo.",
             "Agregar 30ml de Vodka.",
             "Agregar 60ml de Jugo de Tomate.",
@@ -388,20 +388,20 @@ export function initializeFavorites() {
             "Mezclar con una rama de Apio.",
             "Servir en un vaso con Hielo."
          ],
-         "imagen":"url(imgs/tragos-icons/bloodyMary.png)",
-         "headerImage":"imgs/tragos/bloody mary.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/bloodyMary.png)",
+         "headerImage": "imgs/tragos/bloodymary.svg",
+         "favorite": false
       },
       {
-         "name":"Blue Margarita",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Blue Margarita",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Limón",
             "Curaçao Azul",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Tequila.",
             "Agregar 30ml de Jugo de Limón.",
@@ -409,19 +409,19 @@ export function initializeFavorites() {
             "Agitar hasta que esté bien frío.",
             "Servir en una copa margarita previamente escarchada con sal (los hielos no deben caer en la copa)."
          ],
-         "imagen":"url(imgs/tragos-icons/BlueMargarita.png)",
-         "headerImage":"imgs/tragos/Blue margarita.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BlueMargarita.png)",
+         "headerImage": "imgs/tragos/Bluemargarita.svg",
+         "favorite": false
       },
       {
-         "name":"Boulevardier",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Boulevardier",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Campari",
             "Vermouth Rojo",
             "Whisky"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 2 partes de Campari.",
             "Agregar 2 partes de Vermouth Rojo.",
@@ -430,39 +430,39 @@ export function initializeFavorites() {
             "Servir en un vaso de coctel previamente enfirado.",
             "Decorar con un twist de Limón"
          ],
-         "imagen":"url(imgs/tragos-icons/Boulevardier.png)",
-         "headerImage":"imgs/tragos/Boulevardier.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Boulevardier.png)",
+         "headerImage": "imgs/tragos/Boulevardier.svg",
+         "favorite": false
       },
       {
-         "name":"Brave Bull",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Brave Bull",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Tequila Blanco",
             "Licor de Café",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso de Whisky Hielo.",
             "Agregar 60ml de Tequila.",
             "Agregar 30ml de Licór de Café.",
             "Revolver con una cucharita."
          ],
-         "imagen":"url(imgs/tragos-icons/BraveBull.png)",
-         "headerImage":"imgs/tragos/Brave Bull.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/BraveBull.png)",
+         "headerImage": "imgs/tragos/BraveBull.svg",
+         "favorite": false
       },
       {
-         "name":"Bull",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Bull",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Jugo de Limón",
             "Jarabe",
             "Stout",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en un vaso largo, o en una copa fantasía, 45ml de Ron.",
             "Agregar 30ml Jugo de Limón.",
             "Agregar 30ml de Jarabe.",
@@ -471,21 +471,21 @@ export function initializeFavorites() {
             "LLenar a tope con la cerveza Stout.",
             "Decorar a gusto."
          ],
-         "imagen":"url(imgs/tragos-icons/Bull.png)",
-         "headerImage":"imgs/tragos/Bull.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Bull.png)",
+         "headerImage": "imgs/tragos/Bull.svg",
+         "favorite": false
       },
       {
-         "name":"Butterfly",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Butterfly",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Chardonnay",
             "Jarabe de Ananá",
             "Jugo de Pomelo",
             "Miel",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera abundante Hielo.",
             "Agregar 60ml de Chardonnay.",
             "Agregar 30ml de Jarabe de Ananá.",
@@ -494,20 +494,20 @@ export function initializeFavorites() {
             "Servir la preparación colada.",
             "Decorar con flores."
          ],
-         "imagen":"url(imgs/tragos-icons/Butterfly.png)",
-         "headerImage":"imgs/tragos/Butterfly.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Butterfly.png)",
+         "headerImage": "imgs/tragos/Butterfly.svg",
+         "favorite": false
       },
       {
-         "name":"Caipiroska",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Caipiroska",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Azúcar",
             "Lima",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter en un vaso 25g azúcar y media Lima rebanada en trozos.",
             "Triturar ambos ingredientes con un mortero.",
             "Agregar al vaso varios hielos (enteros o picados).",
@@ -515,14 +515,14 @@ export function initializeFavorites() {
             "Utilizar una cuchara para subir las limas.",
             "Añadir más Hielo hasta cubrir el borde."
          ],
-         "imagen":"url(imgs/tragos-icons/caipiroska.png)",
-         "headerImage":"imgs/tragos/caipiroska.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/caipiroska.png)",
+         "headerImage": "imgs/tragos/caipiroska.svg",
+         "favorite": false
       },
       {
-         "name":"Caipiroska de fresa",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Caipiroska de fresa",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Frutilla",
             "Lima",
@@ -530,7 +530,7 @@ export function initializeFavorites() {
             "Gaseosa Lima Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en un vaso 25g de azúcar y media Lima rebanada en trozos.",
             "Triturar ambos ingredientes con un mortero.",
             "Agregar 5 futillas y triturar nuevamente.",
@@ -539,68 +539,68 @@ export function initializeFavorites() {
             "Utilizar una cuchara para subir las limas.",
             "Añadir más Hielo hasta cubrir el borde."
          ],
-         "imagen":"url(imgs/tragos-icons/caipiroskaDeFresa.png)",
-         "headerImage":"imgs/tragos/caipiroska de fresa.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/caipiroskaDeFresa.png)",
+         "headerImage": "imgs/tragos/caipiroskadefresa.svg",
+         "favorite": false
       },
       {
-         "name":"Campari Orange",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Campari Orange",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Campari",
             "Jugo de Naranja"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso alto Hielo.",
             "Agregar 30ml de Campari.",
             "Agregar 90ml de Jugo de Naranja.",
             "Decorar con una rodaja de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/CampariOrange.png)",
-         "headerImage":"imgs/tragos/Campari Orange.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CampariOrange.png)",
+         "headerImage": "imgs/tragos/CampariOrange.svg",
+         "favorite": false
       },
       {
-         "name":"Campari Spritz",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Campari Spritz",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Campari",
             "Soda",
             "Champagne"
          ],
-         "preparacion":[
+         "preparacion": [
             "Agregar en un vaso de vino 2 partes de Campari.",
             "Agregar 3 partes de Champagne.",
             "Agregar 1 parte de Soda.",
             "Decorar con una rodaja de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/CampariSpritz.png)",
-         "headerImage":"imgs/tragos/Campari Spritz.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CampariSpritz.png)",
+         "headerImage": "imgs/tragos/CampariSpritz.svg",
+         "favorite": false
       },
       {
-         "name":"Campari Tonic",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Campari Tonic",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Campari",
             "Agua Tónica",
             "Limón",
             "Hielos"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una copa balón Hielo.",
             "Agregar 1 parte de Campari.",
             "Agregar 3 o 4 partes de Tónica.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/CampariTonic.png)",
-         "headerImage":"imgs/tragos/CAMPARI TONIC.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CampariTonic.png)",
+         "headerImage": "imgs/tragos/CAMPARITONIC.svg",
+         "favorite": false
       },
       {
-         "name":"Cerveza Especiada",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cerveza Especiada",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Stout",
             "Miel",
             "Jengibre",
@@ -608,7 +608,7 @@ export function initializeFavorites() {
             "Clavos de olor",
             "Canela"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una olla 1 litro de cerveza Stout.",
             "Agregar 2 cucharadas de miel.",
             "Agregar 1 trozo de 1cm de jegibre.",
@@ -617,14 +617,14 @@ export function initializeFavorites() {
             "Calentar hasta que hierva.",
             "Dejar reposar hasta que se enfrie y colar."
          ],
-         "imagen":"url(imgs/tragos-icons/CervezaEspeciada.png)",
-         "headerImage":"imgs/tragos/Cerveza especiada.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CervezaEspeciada.png)",
+         "headerImage": "imgs/tragos/Cervezaespeciada.svg",
+         "favorite": false
       },
       {
-         "name":"Cerveza Matadora",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cerveza Matadora",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Golden",
             "Tequila Reposado",
             "Jugo de Limón",
@@ -633,7 +633,7 @@ export function initializeFavorites() {
             "Albahaca",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera 2 o 4 hojas de Albahaca.",
             "Agregar 15ml de Jarabe.",
             "Aplastar suavemente con un mortero.",
@@ -642,21 +642,21 @@ export function initializeFavorites() {
             "Filtrar la mezcla y pasarla a la coctelera.",
             "Completar el resto de la coctelera con la cerveza fría."
          ],
-         "imagen":"url(imgs/tragos-icons/CervezaMatadora.png)",
-         "headerImage":"imgs/tragos/Cerveza Matadora.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CervezaMatadora.png)",
+         "headerImage": "imgs/tragos/CervezaMatadora.svg",
+         "favorite": false
       },
       {
-         "name":"Chemical Brothers",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Chemical Brothers",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Jugo de Uva",
             "Jugo de Limón",
             "Soda",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera 3 partes de Gancia.",
             "Agregar 7 partes de Jugo de Uva y jugo de 1 Limón.",
             "Batir 30 segundos.",
@@ -664,14 +664,14 @@ export function initializeFavorites() {
             "Completar con Soda.",
             "Decorar con un trozo de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/ChemicalBrothers.png)",
-         "headerImage":"imgs/tragos/Chemical Brothers.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/ChemicalBrothers.png)",
+         "headerImage": "imgs/tragos/ChemicalBrothers.svg",
+         "favorite": false
       },
       {
-         "name":"Cinco Herradura",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cinco Herradura",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Ananá",
             "Jugo de Arándano",
@@ -679,7 +679,7 @@ export function initializeFavorites() {
             "Jugo de Limón",
             "Azúcar"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso alto tipo tubo hielos.",
             "Agregar  28ml de Tequila.",
             "Agregar 112ml de Jugo de Ananá.",
@@ -689,14 +689,14 @@ export function initializeFavorites() {
             "Puedes agrear azucar (opcional).",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/CincoHerradura.png)",
-         "headerImage":"imgs/tragos/Cinco Herradura.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CincoHerradura.png)",
+         "headerImage": "imgs/tragos/CincoHerradura.svg",
+         "favorite": false
       },
       {
-         "name":"Clericó",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Clericó",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Champagne",
             "Melocotón",
             "Ciruela",
@@ -704,7 +704,7 @@ export function initializeFavorites() {
             "Crema de Cassis",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Cortar en trocitos 1 melocotón y 2 ciruelas.",
             "Agregar unas gotas de Jugo de Limón y la crema de Cassis.",
             "Revolver y agregar Hielo.",
@@ -712,14 +712,14 @@ export function initializeFavorites() {
             "Revolver todo el contenido con cuidado.",
             "Servir en copas de tipo flautas o en vasos cortos tipo old fashion."
          ],
-         "imagen":"url(imgs/tragos-icons/Clerico.png)",
-         "headerImage":"imgs/tragos/Clerico.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Clerico.png)",
+         "headerImage": "imgs/tragos/Clerico.svg",
+         "favorite": false
       },
       {
-         "name":"Clover Club",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Clover Club",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Dry Gin",
             "Jarabe de Frambuesa",
             "Vermouth Seco",
@@ -727,7 +727,7 @@ export function initializeFavorites() {
             "Huevo",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Dry Gin.",
             "Agregar 20ml de Jarabe de Frambuesa.",
@@ -737,60 +737,60 @@ export function initializeFavorites() {
             "Colar en una copa flaut.",
             "Adornar con unas frambuesas."
          ],
-         "imagen":"url(imgs/tragos-icons/cloverClub.png)",
-         "headerImage":"imgs/tragos/clover club.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/cloverClub.png)",
+         "headerImage": "imgs/tragos/cloverclub.svg",
+         "favorite": false
       },
       {
-         "name":"Cóctel Mónaco",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cóctel Mónaco",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Agua",
             "Rubia Lager",
             "Granadina",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso alto Hielo.",
             "Agregar 15ml de Granadina.",
             "Agregar 150ml de Cerveza Rubia Lager.",
             "Completar con 150ml de Agua."
          ],
-         "imagen":"url(imgs/tragos-icons/CoctelMonaco.png)",
-         "headerImage":"imgs/tragos/Cóctel Mónaco.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CoctelMonaco.png)",
+         "headerImage": "imgs/tragos/CóctelMónaco.svg",
+         "favorite": false
       },
       {
-         "name":"Colt 45",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Colt 45",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Gin",
             "Energizante",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso Hielo.",
             "Agregar 30ml de Gin.",
             "Agregar 60ml de Jägermeister.",
             "Completar con 150ml de Energizante.",
             "Mezclar con una cuchara."
          ],
-         "imagen":"url(imgs/tragos-icons/Colt45.png)",
-         "headerImage":"imgs/tragos/Colt 45.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Colt45.png)",
+         "headerImage": "imgs/tragos/Colt45.svg",
+         "favorite": false
       },
       {
-         "name":"Cool Cucumber Saison",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cool Cucumber Saison",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Rubia Ale",
             "Jugo de Limón",
             "Pepino",
             "Menta",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 15ml de Jugo de Limón.",
             "Agregar 2 rodajas de Pepino.",
@@ -801,21 +801,21 @@ export function initializeFavorites() {
             "Remover ligeramente.",
             "Decorar con una rodaja de Limón y una hoja de Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/CoolCucumberSaison.png)",
-         "headerImage":"imgs/tragos/Cool Cucumber Saison.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CoolCucumberSaison.png)",
+         "headerImage": "imgs/tragos/CoolCucumberSaison.svg",
+         "favorite": false
       },
       {
-         "name":"Cosmopolitan",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cosmopolitan",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Granadina",
             "Triple Sec",
             "Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir dentro de una coctelera Hielo.",
             "Agregar 105ml de Vodka.",
             "Agitar durante unos segundos.",
@@ -824,21 +824,21 @@ export function initializeFavorites() {
             "Por último incorporar 100ml de jugo de Arándanos.",
             "Mezclar y servir en una copa grande."
          ],
-         "imagen":"url(imgs/tragos-icons/cosmopolitan.png)",
-         "headerImage":"imgs/tragos/cosmopolitan.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/cosmopolitan.png)",
+         "headerImage": "imgs/tragos/cosmopolitan.svg",
+         "favorite": false
       },
       {
-         "name":"Cuba libre",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Cuba libre",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Gaseosa Cola",
             "Jugo de Lima",
             "Hielo",
             "Lima"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso 3 cubos de Hielo.",
             "Agregar 45ml de Ron Blanco.",
             "Completar con 90ml de Gaseosa Cola.",
@@ -846,20 +846,20 @@ export function initializeFavorites() {
             "Mezclar.",
             "Decorar con media rodaja de Lima."
          ],
-         "imagen":"url(imgs/tragos-icons/CubaLibre.png)",
-         "headerImage":"imgs/tragos/Cuba libre.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/CubaLibre.png)",
+         "headerImage": "imgs/tragos/Cubalibre.svg",
+         "favorite": false
       },
       {
-         "name":"Daiquiri",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Daiquiri",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Jugo de Lima",
             "Jarabe",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera abundante Hielo.",
             "Agregar 45ml de Ron Blanco.",
             "Agregar 25ml de Jugo de Lima.",
@@ -869,14 +869,14 @@ export function initializeFavorites() {
             "Utilizar un colador al verter el líquido.",
             "Posteriormente escarchar el borde de la copa con azúcar y se decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/Daiquiri.png)",
-         "headerImage":"imgs/tragos/Daiquiri.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Daiquiri.png)",
+         "headerImage": "imgs/tragos/Daiquiri.svg",
+         "favorite": false
       },
       {
-         "name":"Dama blanca",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Dama blanca",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Triple Sec",
             "Jugo de Limón",
@@ -884,7 +884,7 @@ export function initializeFavorites() {
             "Huevo",
             "Limón"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 50ml de Gin.",
             "Agregar 15ml de Triple Sec.",
@@ -894,180 +894,180 @@ export function initializeFavorites() {
             "Colar el líquido en un vaso frío.",
             "Decorar con la ralladura de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/damaBlanca.png)",
-         "headerImage":"imgs/tragos/dama blanca.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/damaBlanca.png)",
+         "headerImage": "imgs/tragos/damablanca.svg",
+         "favorite": false
       },
       {
-         "name":"Deer & Beer",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Deer & Beer",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Rubia Lager"
          ],
-         "preparacion":[
+         "preparacion": [
             "Servir el Jägermeister helado en un vaso de chupito.",
             "Servir la cerveza fría en un vaso de cerveza.",
             "Tomar el Jägermeister y después disfrutar la cerveza."
          ],
-         "imagen":"url(imgs/tragos-icons/DEERBEER.png)",
-         "headerImage":"imgs/tragos/DEER_BEER.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/DEERBEER.png)",
+         "headerImage": "imgs/tragos/DEER_BEER.svg",
+         "favorite": false
       },
       {
-         "name":"Délice & pepino",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Délice & pepino",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Champagne",
             "Pepino",
             "Albahaca",
             "Pomelo",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un copón abundante Hielo.",
             "Agregar la piel del Pepino.",
             "Completar con el Champagne.",
             "Revolver.",
             "Decorar con una rodaja de Pomelo y hojas de Albahaca."
          ],
-         "imagen":"url(imgs/tragos-icons/DelicePepino.png)",
-         "headerImage":"imgs/tragos/Delice_pepino.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/DelicePepino.png)",
+         "headerImage": "imgs/tragos/Delice_pepino.svg",
+         "favorite": false
       },
       {
-         "name":"Destornillador",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Destornillador",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Jugo de Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Llenar un vaso con Hielo.",
             "Agregar 50ml de Vodka.",
             "Llenar el vaso de Juego de Naranja.",
             "Mezclar.",
             "Adornar con una rodaja de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/Destornillador.png)",
-         "headerImage":"imgs/tragos/Destornillador.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Destornillador.png)",
+         "headerImage": "imgs/tragos/Destornillador.svg",
+         "favorite": false
       },
       {
-         "name":"Disparo Caliente",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Disparo Caliente",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Jägermeister",
             "Tequila Blanco",
             "Salsa Tabasco"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un chupito 2 partes de Jägermeister.",
             "Agregar 2 partes de Tequila.",
-            "Agregar 1/2 parte de salsa tabasco.", 
+            "Agregar 1/2 parte de salsa tabasco.",
             "Revolver con una cuchara."
          ],
-         "imagen":"url(imgs/tragos-icons/DisparoCaliente.png)",
-         "headerImage":"imgs/tragos/Disparo caliente.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/DisparoCaliente.png)",
+         "headerImage": "imgs/tragos/Disparocaliente.svg",
+         "favorite": false
       },
       {
-         "name":"Dolce Vita",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Dolce Vita",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Americano Gancia",
             "Champagne",
             "Bitter Aromático",
             "Piel de Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una copa Hielo.",
             "Agregar 1 parte de Americano Gancia.",
             "Agregar 1 parte y media de Champagne.",
             "Terminar con unas gotas de Bitter Aromático.",
             "Decorar con una piel de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/DolceVita.png)",
-         "headerImage":"imgs/tragos/Dolce Vita.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/DolceVita.png)",
+         "headerImage": "imgs/tragos/DolceVita.svg",
+         "favorite": false
       },
       {
-         "name":"El monstruo del lago Ness",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "El monstruo del lago Ness",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Jägermeister",
             "Baileys",
             "Licor de Melón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter en una copa de tipo cordial 2 partes de Baileys.",
             "Añadir lentamente, con mucho cuidado, 2 partes de Licor de Melón, dejándolo caer suavemente por el borde de la copa para que estos no se mezclen.",
             "Incorporar 2 partes de Jägermeister utilizando el mismo procedimiento que con el Licor de Melón."
          ],
-         "imagen":"url(imgs/tragos-icons/ElMonstruoDelLagoNess.png)",
-         "headerImage":"imgs/tragos/El monstruo del lago Ness.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/ElMonstruoDelLagoNess.png)",
+         "headerImage": "imgs/tragos/ElmonstruodellagoNess.svg",
+         "favorite": false
       },
       {
-         "name":"Energizante Jäger",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Energizante Jäger",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Energizante",
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso de tipo Highball Hielo.",
             "Agregar 1 parte de Jägermeister.",
             "Completar con Energizante.",
             "Decorar con un trozo de cáscara de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/EnergizanteJager.png)",
-         "headerImage":"imgs/tragos/Energizante Jäger.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/EnergizanteJager.png)",
+         "headerImage": "imgs/tragos/EnergizanteJäger.svg",
+         "favorite": false
       },
       {
-         "name":"Espuma Dorada",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Espuma Dorada",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Rubia Lager",
             "Champagne",
             "Licor de Melón"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una jarra, o copa balón, 500ml de cerveza Rubia Lager.",
             "Agregar 500ml de Champagne.",
             "Agregar 1 chupito de Licor de Melón."
          ],
-         "imagen":"url(imgs/tragos-icons/EspumaDorada.png)",
-         "headerImage":"imgs/tragos/Espuma dorada.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/EspumaDorada.png)",
+         "headerImage": "imgs/tragos/Espumadorada.svg",
+         "favorite": false
       },
       {
-         "name":"Fernet Cola",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Fernet Cola",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Fernet",
             "Gaseosa Cola",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso Hielo.",
             "Agregar un 30% de Fernet.",
             "Completar con un 70% de Gaseosa Cola."
          ],
-         "imagen":"url(imgs/tragos-icons/FernetCola.png)",
-         "headerImage":"imgs/tragos/FernetCola.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/FernetCola.png)",
+         "headerImage": "imgs/tragos/FernetCola.svg",
+         "favorite": false
       },
       {
-         "name":"French 75",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "French 75",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Jugo de Limón",
             "Azúcar Impalpable",
@@ -1075,7 +1075,7 @@ export function initializeFavorites() {
             "Hielo",
             "Limón"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 90ml de Gin.",
             "Agregar 90ml de Jugo de Limón y 4 cdtas de azúcar impalpable.",
@@ -1084,14 +1084,14 @@ export function initializeFavorites() {
             "Rellenar con el Champagne.",
             "Adornar con una cáscara de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/french75.png)",
-         "headerImage":"imgs/tragos/french 75.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/french75.png)",
+         "headerImage": "imgs/tragos/french75.svg",
+         "favorite": false
       },
       {
-         "name":"Fright Night In The Groove",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Fright Night In The Groove",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Jägermeister",
             "Tequila Blanco",
             "Jarabe",
@@ -1099,7 +1099,7 @@ export function initializeFavorites() {
             "Pomelo",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Jägermeister.",
             "Agregar 15ml de Tequila.",
@@ -1109,14 +1109,14 @@ export function initializeFavorites() {
             "Verter el líquido en un vaso chico de Whisky.",
             "Decorar con una rodaja de Pomelo."
          ],
-         "imagen":"url(imgs/tragos-icons/FrightNightInTheGroove.png)",
-         "headerImage":"imgs/tragos/Fright Night In The Groove.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/FrightNightInTheGroove.png)",
+         "headerImage": "imgs/tragos/FrightNightInTheGroove.svg",
+         "favorite": false
       },
       {
-         "name":"Gancia Coloradito",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Gancia Coloradito",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Jugo de Naranja",
             "Campari",
@@ -1124,7 +1124,7 @@ export function initializeFavorites() {
             "Hielo",
             "Menta"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera 6 partes de Americano Gancia.",
             "Agregar 2 partes de Jugo de Naranja.",
             "Agregar 2 partes de Campari y 1/2 cucharada de azucar impalpable.",
@@ -1132,40 +1132,40 @@ export function initializeFavorites() {
             "Servir en vaso de trago corto con Hielo.",
             "Decorar con unas hojas de Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/GanciaColoradito.png)",
-         "headerImage":"imgs/tragos/Gancia coloradito.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/GanciaColoradito.png)",
+         "headerImage": "imgs/tragos/Ganciacoloradito.svg",
+         "favorite": false
       },
       {
-         "name":"Gancia con Pomelo",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Gancia con Pomelo",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Americano Gancia",
             "Gaseosa Pomelo",
             "Pomelo",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso de trago largo Hielo.",
             "Agregar 2 partes de Americano Gancia.",
             "Completar con Gaseosa Pomelo.",
             "Decorar con media rodaja de Pomelo."
          ],
-         "imagen":"url(imgs/tragos-icons/GanciaConPomelo.png)",
-         "headerImage":"imgs/tragos/Gancia con pomelo.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/GanciaConPomelo.png)",
+         "headerImage": "imgs/tragos/Ganciaconpomelo.svg",
+         "favorite": false
       },
       {
-         "name":"Gancia Frozen de Frutilla",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Gancia Frozen de Frutilla",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Azúcar",
             "Pulpa de Frutilla",
             "Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 1 medida de Americano Gancia y 1 cucharada de azucar.",
             "Agitar durante unos segundos.",
@@ -1173,21 +1173,21 @@ export function initializeFavorites() {
             "Completar con Pulpa de Frutilla y el jugo de de un gajo de Limón.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/GanciaFrozenDeFrutilla.png)",
-         "headerImage":"imgs/tragos/Gancia frozen de frutilla.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/GanciaFrozenDeFrutilla.png)",
+         "headerImage": "imgs/tragos/Ganciafrozendefrutilla.svg",
+         "favorite": false
       },
       {
-         "name":"Gancia Tangerine",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Gancia Tangerine",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Americano Gancia",
             "Mandarina",
             "Soda",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una vaso de trago largo Hielo.",
             "Agregar 2 partes de Americano Gancia.",
             "Agregar 4 partes de Vodka.",
@@ -1195,14 +1195,14 @@ export function initializeFavorites() {
             "Completar con Soda.",
             "Decorar con tres gajos de Mandarina."
          ],
-         "imagen":"url(imgs/tragos-icons/GanciaTangerine.png)",
-         "headerImage":"imgs/tragos/Gancia Tangerine.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/GanciaTangerine.png)",
+         "headerImage": "imgs/tragos/GanciaTangerine.svg",
+         "favorite": false
       },
       {
-         "name":"Gin Fizz",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Gin Fizz",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Jugo de Limón",
             "Jarabe",
@@ -1210,7 +1210,7 @@ export function initializeFavorites() {
             "Hielo",
             "Limón"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Gin.",
             "Agregar 30ml de Jugo de Limón.",
@@ -1220,39 +1220,39 @@ export function initializeFavorites() {
             "Añadir Soda para rellenar.",
             "Decorar con una cáscara de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/ginFizz.png)",
-         "headerImage":"imgs/tragos/gin fizz.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/ginFizz.png)",
+         "headerImage": "imgs/tragos/ginfizz.svg",
+         "favorite": false
       },
       {
-         "name":"Gin Tonic",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Gin Tonic",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Agua Tónica",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso Hielo.",
             "Agregar 30% de Gin.",
             "Completar con Agua Tónica.",
             "Mezclar todo."
          ],
-         "imagen":"url(imgs/tragos-icons/ginTonic.png)",
-         "headerImage":"imgs/tragos/gin tonic.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/ginTonic.png)",
+         "headerImage": "imgs/tragos/gintonic.svg",
+         "favorite": false
       },
       {
-         "name":"Golden Peach",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Golden Peach",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Duraznos en Lata",
             "Jugo de Naranja",
             "Durazno",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en la licuadora 2/3 de lata de conserva de duraznos.",
             "Agregar 120ml Jugo de Naranja.",
             "Agregar 120ml de Ron Blanco y Hielo.",
@@ -1260,21 +1260,21 @@ export function initializeFavorites() {
             "Servir en vasos altos.",
             "Decorar el trago con una rodaja de Durazno."
          ],
-         "imagen":"url(imgs/tragos-icons/goldenPeach.png)",
-         "headerImage":"imgs/tragos/golden peach.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/goldenPeach.png)",
+         "headerImage": "imgs/tragos/goldenpeach.svg",
+         "favorite": false
       },
       {
-         "name":"Hemingway Special",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Hemingway Special",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Jugo de Pomelo",
             "Marrasquino",
             "Jugo de Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera abundante Hielo.",
             "Agregar 60ml de Ron Blanco.",
             "Agregar 40ml de Jugo de Pomelo.",
@@ -1284,14 +1284,14 @@ export function initializeFavorites() {
             "Servir en una copa clásica de cóctel enfriada previamente.",
             "Normalmente no se decora, pero puede admitir una rodajita de Limón o de Ananá en el borde."
          ],
-         "imagen":"url(imgs/tragos-icons/HemingwaySpecial.png)",
-         "headerImage":"imgs/tragos/Hemingway Special.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/HemingwaySpecial.png)",
+         "headerImage": "imgs/tragos/HemingwaySpecial.svg",
+         "favorite": false
       },
       {
-         "name":"Hop Collins",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Hop Collins",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ginebra Seca",
             "Jugo de Limón",
             "Jarabe",
@@ -1299,7 +1299,7 @@ export function initializeFavorites() {
             "Frambuesa",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Ginebra Seca.",
             "Agregar 30ml de Jugo de Limón.",
@@ -1309,70 +1309,70 @@ export function initializeFavorites() {
             "Añadir suavemente la cerveza American IPA hasta llenar el vaso.",
             "Decorar con frambuesas"
          ],
-         "imagen":"url(imgs/tragos-icons/HopCollins.png)",
-         "headerImage":"imgs/tragos/Hop Collins.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/HopCollins.png)",
+         "headerImage": "imgs/tragos/HopCollins.svg",
+         "favorite": false
       },
       {
-         "name":"Horno Bull",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Horno Bull",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso largo Hielo.",
             "Agregar 50ml de Tequila.",
             "Completar con Jugo de Naranja.",
             "Mezclar."
          ],
-         "imagen":"url(imgs/tragos-icons/HornoBull.png)",
-         "headerImage":"imgs/tragos/Horno Bull.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/HornoBull.png)",
+         "headerImage": "imgs/tragos/HornoBull.svg",
+         "favorite": false
       },
       {
-         "name":"Jäger Tonic",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Jäger Tonic",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Agua Tónica",
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una copa alargada 90ml de Jägermeister.",
             "Completar con Tónica.",
             "Añadir dos cubitos de Hielo y una rodaja de Naranja.",
             "Decorar la copa con una rodaja de Naranja en el borde."
          ],
-         "imagen":"url(imgs/tragos-icons/JagerTonic.png)",
-         "headerImage":"imgs/tragos/JÄGER TONIC.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/JagerTonic.png)",
+         "headerImage": "imgs/tragos/JÄGERTONIC.svg",
+         "favorite": false
       },
       {
-         "name":"Jägermeister Tea",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Jägermeister Tea",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Té",
             "Limón",
             "Hielo"
          ],
-         "preparacion":[
-            "Añadir 60ml de Jägermeister en una jarra de cerveza con Hielo.", 
+         "preparacion": [
+            "Añadir 60ml de Jägermeister en una jarra de cerveza con Hielo.",
             "Completar con Té.",
             "Revolver.",
             "Adornar con un trocito de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/JaggerTea.png)",
-         "headerImage":"imgs/tragos/Jagger Tea.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/JaggerTea.png)",
+         "headerImage": "imgs/tragos/JaggerTea.svg",
+         "favorite": false
       },
       {
-         "name":"Juan Collins",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Juan Collins",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Limón",
             "Azúcar",
@@ -1380,7 +1380,7 @@ export function initializeFavorites() {
             "Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso tipo tubo Hielo.",
             "Añadir 4,5 partes de Tequila.",
             "Añadir 1,5 parte de Jugo de Limón.",
@@ -1388,20 +1388,20 @@ export function initializeFavorites() {
             "Completar con 9 partes Soda.",
             "Decorar con la cuña de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/JuanCollins.png)",
-         "headerImage":"imgs/tragos/Juan Collins.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/JuanCollins.png)",
+         "headerImage": "imgs/tragos/JuanCollins.svg",
+         "favorite": false
       },
       {
-         "name":"Kaffee",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Kaffee",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Jägermeister",
             "Café Cold Brew",
             "Café Molido",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Preparar Café Cold Brew con anticipación.",
             "Añadir en la coctelera 1 parte de Jägermeister.",
             "Completar 1 parte de Café Cold Brew.",
@@ -1409,33 +1409,33 @@ export function initializeFavorites() {
             "Servir cuidadosamente en una taza de espresso transparente.",
             "Espolvorear un poco de Café molido sobre la taza."
          ],
-         "imagen":"url(imgs/tragos-icons/KAFFEE.png)",
-         "headerImage":"imgs/tragos/KAFFEE.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/KAFFEE.png)",
+         "headerImage": "imgs/tragos/KAFFEE.svg",
+         "favorite": false
       },
       {
-         "name":"Limone",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Limone",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Gaseosa Lima Limón",
             "Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso de trago largo Hielo.",
             "Agregar 2 partes de Americano Gancia.",
             "Completar con Gaseosa Lima Limón.",
             "Decorar con un gajo de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/Limone.png)",
-         "headerImage":"imgs/tragos/Limone.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Limone.png)",
+         "headerImage": "imgs/tragos/Limone.svg",
+         "favorite": false
       },
       {
-         "name":"Long Island Iced Tea",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Long Island Iced Tea",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Vodka",
             "Ron Blanco",
@@ -1446,7 +1446,7 @@ export function initializeFavorites() {
             "Gaseosa Cola",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso alto unos 4 cubos de Hielo.",
             "Agregar 30ml Vodka.",
             "Agregar 30ml Tequila.",
@@ -1458,14 +1458,14 @@ export function initializeFavorites() {
             "Por último vertir lentamente el Gaseosa Cola hasta completar.",
             "Decorar con un trozo de Limón o Lima y añadir una bombilla."
          ],
-         "imagen":"url(imgs/tragos-icons/LongIslandIcedTea.png)",
-         "headerImage":"imgs/tragos/long island iced tea.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/LongIslandIcedTea.png)",
+         "headerImage": "imgs/tragos/longislandicedtea.svg",
+         "favorite": false
       },
       {
-         "name":"Long Island Iced Tea (Ron)",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Long Island Iced Tea (Ron)",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Tequila Blanco",
             "Vodka",
             "Ron Blanco",
@@ -1476,7 +1476,7 @@ export function initializeFavorites() {
             "Gaseosa Cola",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso largo (Highball o vaso Collins) Hielo.",
             "Agregar 15ml de Tequila.",
             "Agregar 15ml de Vodka.",
@@ -1488,14 +1488,14 @@ export function initializeFavorites() {
             "Mezclar bien.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/LongIslandIcedTea.png)",
-         "headerImage":"imgs/tragos/long island iced tea.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/LongIslandIcedTea.png)",
+         "headerImage": "imgs/tragos/longislandicedtea.svg",
+         "favorite": false
       },
       {
-         "name":"Mai Tai",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Mai Tai",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Ron Blanco",
             "Ron Oscuro",
             "Curaçao de Naranja",
@@ -1504,12 +1504,12 @@ export function initializeFavorites() {
             "Granadina",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 40ml de Ron Blanco.",
             "Agregar 20ml de Ron Oscuro.",
             "Agregar 15ml de Curaçao de Naranja.",
-            "Agregar 15ml de Jarabe de Almendra.", 
+            "Agregar 15ml de Jarabe de Almendra.",
             "Agregar 10ml de Jugo de Limón.",
             "Completar con 10ml de Granadina.",
             "Mezclar bien.",
@@ -1517,14 +1517,14 @@ export function initializeFavorites() {
             "Rellenar con Soda.",
             "Decorar con una rodaja de Lima, o de Ananá, y con una sombrilla."
          ],
-         "imagen":"url(imgs/tragos-icons/MaiTai.png)",
-         "headerImage":"imgs/tragos/Mai Tai.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MaiTai.png)",
+         "headerImage": "imgs/tragos/MaiTai.svg",
+         "favorite": false
       },
       {
-         "name":"Manhattan",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Manhattan",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Vermouth Dulce",
             "Whisky",
             "Angostura",
@@ -1532,7 +1532,7 @@ export function initializeFavorites() {
             "Cereza",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo picado.",
             "Agregar 7ml de Angostura.",
             "Agregar 90ml de Whisky.",
@@ -1541,36 +1541,36 @@ export function initializeFavorites() {
             "Introducir las cerezas para darle ese color especial.",
             "Decorar con la Cereza y una cáscara de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/Manhattan.png)",
-         "headerImage":"imgs/tragos/Manhattan.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Manhattan.png)",
+         "headerImage": "imgs/tragos/Manhattan.svg",
+         "favorite": false
       },
       {
-         "name":"Margachela o Margarita Miami",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Margachela o Margarita Miami",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Triple Sec",
             "Jugo de Limón",
             "Pale Lager",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una licuadora 45ml de Tequila",
             "Agregar 30ml de licor Triple Sec.",
-            "Agregar 30ml de Jugo de Limón y el Hielo.", 
+            "Agregar 30ml de Jugo de Limón y el Hielo.",
             "Prender la licuadora hasta que quede como una nieve.",
             "Servir en una copa escarchada con sal.",
             "Para finalizar, destapar las cervezas y colocarlas boca abajo en el trago."
          ],
-         "imagen":"url(imgs/tragos-icons/Margachela.png)",
-         "headerImage":"imgs/tragos/MargachelaPNG.png",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Margachela.png)",
+         "headerImage": "imgs/tragos/MargachelaPNG.png",
+         "favorite": false
       },
       {
-         "name":"Margarita de Pepino",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Margarita de Pepino",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Pepino",
             "Jugo de Limón",
@@ -1578,7 +1578,7 @@ export function initializeFavorites() {
             "Hielo",
             "Pepino"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Tequila.",
             "Agregar 60ml de Jugo de Pepino.",
@@ -1588,14 +1588,14 @@ export function initializeFavorites() {
             "Servir en una copa con Hielo.",
             "Decorar con unas tiritas de Pepino."
          ],
-         "imagen":"url(imgs/tragos-icons/MargaritaDePepino.png)",
-         "headerImage":"imgs/tragos/Margarita De Pepino.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MargaritaDePepino.png)",
+         "headerImage": "imgs/tragos/MargaritaDePepino.svg",
+         "favorite": false
       },
       {
-         "name":"Margarita de Sandía",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Margarita de Sandía",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Sandía",
             "Sal",
             "Jugo de Limón",
@@ -1603,7 +1603,7 @@ export function initializeFavorites() {
             "Tequila Blanco",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una licuadora 680g de Sandía en trozos.",
             "Agregar 177ml de Jugo de Limón.",
             "Agregar 1/4 de cucharadita de Sal.",
@@ -1613,14 +1613,14 @@ export function initializeFavorites() {
             "Luego guardar en la nevera.",
             "Servir en vasos con hielos."
          ],
-         "imagen":"url(imgs/tragos-icons/MargaritaDeSandia.png)",
-         "headerImage":"imgs/tragos/Margarita de sandia.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MargaritaDeSandia.png)",
+         "headerImage": "imgs/tragos/Margaritadesandia.svg",
+         "favorite": false
       },
       {
-         "name":"Margarita Shandy",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Margarita Shandy",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jugo de Limón",
             "Tequila Reposado",
             "Agua",
@@ -1629,7 +1629,7 @@ export function initializeFavorites() {
             "Sal",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una jarra grande 320ml de Jugo de Limón.",
             "Agregar 236ml de Tequila.",
             "Completar con 350ml agua.",
@@ -1638,14 +1638,14 @@ export function initializeFavorites() {
             "Enfriar durante 6 horas.",
             "Antes de servir llenar la jarra con Hielo, rodajas de Limón y añadir la cerveza Golden muy fría."
          ],
-         "imagen":"url(imgs/tragos-icons/margaritaShandy.png)",
-         "headerImage":"imgs/tragos/Margarita shandy.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/margaritaShandy.png)",
+         "headerImage": "imgs/tragos/Margaritashandy.svg",
+         "favorite": false
       },
       {
-         "name":"Martini Coctel",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Martini Coctel",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Gin",
             "Vermouth",
             "Aceituna",
@@ -1653,7 +1653,7 @@ export function initializeFavorites() {
             "Agua",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 75ml de Gin.",
             "Agregar 30ml de Vermouth.",
@@ -1662,14 +1662,14 @@ export function initializeFavorites() {
             "Exprimir la cáscara de limón en la superficie.",
             "Para decorar poner 1-3 aceitunas en un palillo y agregar al Martini."
          ],
-         "imagen":"url(imgs/tragos-icons/martiniCoctel.png)",
-         "headerImage":"imgs/tragos/martini coctel.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/martiniCoctel.png)",
+         "headerImage": "imgs/tragos/martinicoctel.svg",
+         "favorite": false
       },
       {
-         "name":"Mary Pickford",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Mary Pickford",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Marrasquino",
             "Jugo de Ananá",
@@ -1677,7 +1677,7 @@ export function initializeFavorites() {
             "Cereza",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Ron Blanco.",
             "Agregar 10ml de Marrasquino.",
@@ -1687,21 +1687,21 @@ export function initializeFavorites() {
             "Servir en una copa de cóctel fría.",
             "Decorar el vaso con una Cereza de cóctel."
          ],
-         "imagen":"url(imgs/tragos-icons/MaryPickford.png)",
-         "headerImage":"imgs/tragos/Mary pickford.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MaryPickford.png)",
+         "headerImage": "imgs/tragos/Marypickford.svg",
+         "favorite": false
       },
       {
-         "name":"Mexican Mule",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Mexican Mule",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Lima",
             "Jarabe",
             "Gaseosa Ginger Beer",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso alto Hielo picado hasta la mitad aproximadamente.",
             "Exprimir media Lima",
             "Agregar 8ml de Jarabe.",
@@ -1710,14 +1710,14 @@ export function initializeFavorites() {
             "Añadir más Hielo picado hasta arriba y rellenar con la Gaseosa de Ginger Beer.",
             "Decorar con Lima."
          ],
-         "imagen":"url(imgs/tragos-icons/MexicanMule.png)",
-         "headerImage":"imgs/tragos/Mexican mule.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MexicanMule.png)",
+         "headerImage": "imgs/tragos/Mexicanmule.svg",
+         "favorite": false
       },
       {
-         "name":"Mojito",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Mojito",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Jugo de Lima",
             "Menta",
@@ -1725,7 +1725,7 @@ export function initializeFavorites() {
             "Soda",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso dos cucharadas de azúcar.",
             "Agregar 6 ramas de Menta.",
             "Agregar 30ml de Lima.",
@@ -1734,14 +1734,14 @@ export function initializeFavorites() {
             "Finalmente añadir 40ml de Ron y terminar de llenar el vaso con Soda.",
             "Decorar con hojas de Menta y una rodaja de Lima o de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/Mojito.png)",
-         "headerImage":"imgs/tragos/Mojito.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Mojito.png)",
+         "headerImage": "imgs/tragos/Mojito.svg",
+         "favorite": false
       },
       {
-         "name":"Mojito Con Cerveza",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Mojito Con Cerveza",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Limón",
             "Azúcar",
@@ -1749,7 +1749,7 @@ export function initializeFavorites() {
             "Rubia Lager",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Cortar 1/2 Limón en cuartos e incorpóralos en un vaso.",
             "Colocar 2 o 3 cucharadas de azúcar y machacar suavemente para extraer el jugo.",
             "Agregar las hojas de menta y presionar un poco más hasta que toda se mezcle bien.",
@@ -1758,21 +1758,21 @@ export function initializeFavorites() {
             "Revolver y completar con la cerveza Rubia Lager.",
             "Decorar con una ramita de Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/MojitoConCerveza.png)",
-         "headerImage":"imgs/tragos/Mojito con cerveza.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MojitoConCerveza.png)",
+         "headerImage": "imgs/tragos/Mojitoconcerveza.svg",
+         "favorite": false
       },
       {
-         "name":"Negroni",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Negroni",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Gin",
             "Campari",
             "Vermouth Rosso",
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso old fashion 3 cubos de Hielo.",
             "Agregar 30ml Gin.",
             "Agregar 30ml Campari.",
@@ -1780,20 +1780,20 @@ export function initializeFavorites() {
             "Revolver por 30 segundos.",
             "Decorar con una cáscara de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/negroni.png)",
-         "headerImage":"imgs/tragos/negroni.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/negroni.png)",
+         "headerImage": "imgs/tragos/negroni.svg",
+         "favorite": false
       },
       {
-         "name":"Nieblas del Caribe",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Nieblas del Caribe",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Reposado",
             "Jugo de Ananá",
             "Jugo de Naranja",
             "Curaçao Azul"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso alto 2 hielos.",
             "Agregar 30ml de Tequila Reposado.",
             "Agregar 125ml de Jugo de Ananá.",
@@ -1801,20 +1801,20 @@ export function initializeFavorites() {
             "Rellenar con 15ml Curaçao Azul.",
             "Decorar con un trozo de Ananá."
          ],
-         "imagen":"url(imgs/tragos-icons/NieblasDelCaribe.png)",
-         "headerImage":"imgs/tragos/Nieblas del Caribe.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/NieblasDelCaribe.png)",
+         "headerImage": "imgs/tragos/NieblasdelCaribe.svg",
+         "favorite": false
       },
       {
-         "name":"Paloma",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Paloma",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Limón",
             "Gaseosa de Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso highball escarchado con sal 3 cubos de Hielo.",
             "Agregar 100ml de Tequila Blanco.",
             "Agregar 50ml de Jugo de Limón.",
@@ -1822,14 +1822,14 @@ export function initializeFavorites() {
             "Mezclar suavemente.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/Paloma.png)",
-         "headerImage":"imgs/tragos/Paloma.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Paloma.png)",
+         "headerImage": "imgs/tragos/Paloma.svg",
+         "favorite": false
       },
       {
-         "name":"Pimps Up",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Pimps Up",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Martini Bitter",
             "Jarabe de Jengibre",
@@ -1844,10 +1844,10 @@ export function initializeFavorites() {
             "Menta",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una jarra Hielo.",
             "Agregar 1 limón, 3 limas, 1 pomelo, 1 naranja, 1/2 pepino, 1 puñado de arándanos y un puñado de frutillas, todos cortados.",
-            "Incorporar 177ml de Gin.", 
+            "Incorporar 177ml de Gin.",
             "Agregar un dash de Bitter.",
             "Agregar 59ml de Jarabe.",
             "Completar con 1 lata de Gaseosa de Lima Limón.",
@@ -1855,14 +1855,14 @@ export function initializeFavorites() {
             "Servir en vasos con Hielo.",
             "Decorar con Pepino y Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/PimpsUp.png)",
-         "headerImage":"imgs/tragos/Pimps Up.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/PimpsUp.png)",
+         "headerImage": "imgs/tragos/PimpsUp.svg",
+         "favorite": false
       },
       {
-         "name":"Pink Ponch",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Pink Ponch",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Plan B Rose",
             "Jugo de Manzana",
             "Jarabe de Frutos Rojos",
@@ -1871,7 +1871,7 @@ export function initializeFavorites() {
             "Menta",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una jarra abundante Hielo.",
             "Agregar 500ml de Plan B Rose.",
             "Agregar 90ml de Jugo de Lima.",
@@ -1881,20 +1881,20 @@ export function initializeFavorites() {
             "Mezclar.",
             "Terminar con Menta fresca."
          ],
-         "imagen":"url(imgs/tragos-icons/PinkPonch.png)",
-         "headerImage":"imgs/tragos/Pink Ponch.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/PinkPonch.png)",
+         "headerImage": "imgs/tragos/PinkPonch.svg",
+         "favorite": false
       },
       {
-         "name":"Piña Colada",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Piña Colada",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Jugo de Ananá",
             "Leche de Coco",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo picado.",
             "Agregar 30ml de Ron.",
             "Agregar 90ml de Jugo de Ananá.",
@@ -1903,14 +1903,14 @@ export function initializeFavorites() {
             "Servir en un vaso Hurricane.",
             "Decorar con una rodajita de Ananá."
          ],
-         "imagen":"url(imgs/tragos-icons/PinaColada.png)",
-         "headerImage":"imgs/tragos/Piña colada.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/PinaColada.png)",
+         "headerImage": "imgs/tragos/Piñacolada.svg",
+         "favorite": false
       },
       {
-         "name":"Planter’s Punch",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Planter’s Punch",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Oscuro",
             "Jugo de Naranja",
             "Jugo de Ananá",
@@ -1920,7 +1920,7 @@ export function initializeFavorites() {
             "Amargo de Angostura",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 45ml de Ron Oscuro.",
             "Agregar 35ml de Jugo de Naranja.",
@@ -1933,14 +1933,14 @@ export function initializeFavorites() {
             "Rellenar el vaso con 3 o 4 toques de Amargo de Angostura.",
             "Decorar con una Guinda de cóctel y también con una rodajita de Ananá en el borde."
          ],
-         "imagen":"url(imgs/tragos-icons/PlantersPunch.png)",
-         "headerImage":"imgs/tragos/Planters Punch.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/PlantersPunch.png)",
+         "headerImage": "imgs/tragos/PlantersPunch.svg",
+         "favorite": false
       },
       {
-         "name":"Pomelo Sour",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Pomelo Sour",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Jugo de Pomelo",
             "Triple Sec",
@@ -1949,7 +1949,7 @@ export function initializeFavorites() {
             "Huevo",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 45ml de Gin.",
             "Agregar 75ml de Jugo de Pomelo.",
@@ -1960,23 +1960,23 @@ export function initializeFavorites() {
             "Agitar fuertemente durante 30 segundos.",
             "Servir en un vaso (sin Hielo) y adornar a gusto"
          ],
-         "imagen":"url(imgs/tragos-icons/pomeloSour.png)",
-         "headerImage":"imgs/tragos/pomelo sour.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/pomeloSour.png)",
+         "headerImage": "imgs/tragos/pomelosour.svg",
+         "favorite": false
       },
       {
-         "name":"Purple Stag",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Purple Stag",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Té de Frutos",
             "Azúcar Impalpable",
             "Jägermeister",
             "Jugo de Limón",
-            "Mermelada de Mora", 
+            "Mermelada de Mora",
             "Mora",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir las moras en una coctelera.",
             "Agregar 10ml de la mermelada y agitar suavemente.",
             "Agregar 25ml de Té de Frutos.",
@@ -1985,20 +1985,20 @@ export function initializeFavorites() {
             "Colar y servir en un vaso con Hielo.",
             "Echar la Azúcar Impalpable por encima."
          ],
-         "imagen":"url(imgs/tragos-icons/PurpleStag.png)",
-         "headerImage":"imgs/tragos/PURPLE STAG.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/PurpleStag.png)",
+         "headerImage": "imgs/tragos/PURPLESTAG.svg",
+         "favorite": false
       },
       {
-         "name":"Red Headed Chick",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Red Headed Chick",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Jägermeister",
             "Caña de Durazno",
             "Jugo de Arándano",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un cocterlera 30ml de Jägermeister.",
             "Agregar 30ml de Caña de Durazno.",
             "Agregar 60ml de Jugo de Arándano.",
@@ -2006,39 +2006,39 @@ export function initializeFavorites() {
             "Agitar fuertemente.",
             "Servir en un vaso mediano tipo Vodka sour."
          ],
-         "imagen":"url(imgs/tragos-icons/RedHeadedChick.png)",
-         "headerImage":"imgs/tragos/Red Headed Chick.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/RedHeadedChick.png)",
+         "headerImage": "imgs/tragos/RedHeadedChick.svg",
+         "favorite": false
       },
       {
-         "name":"Reservoir Dog",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Reservoir Dog",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Jägermeister",
             "Baileys",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso con cubitos de Hielo",
             "Agregar 50% de Baileys.",
             "Agregar 50% de Jägermeister.",
             "Dejar reposar la bebida durante unos minutos.",
             "Retirar los hielos y servir en un vaso ancho de Whisky."
          ],
-         "imagen":"url(imgs/tragos-icons/ReservoirDog.png)",
-         "headerImage":"imgs/tragos/RESERVOIR DOG.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/ReservoirDog.png)",
+         "headerImage": "imgs/tragos/RESERVOIRDOG.svg",
+         "favorite": false
       },
       {
-         "name":"Rob Roy",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Rob Roy",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Whisky",
             "Vermouth Rosso",
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera abundante Hielo.",
             "Agregar 60ml de Whisky.",
             "Agregar 30ml de Vermouth Rosso.",
@@ -2046,79 +2046,79 @@ export function initializeFavorites() {
             "Servir en una copa estilo Martini previamente helada, pero sin colocarle Hielo.",
             "Decorar con piel de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/RobRoy.png)",
-         "headerImage":"imgs/tragos/Rob Roy.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/RobRoy.png)",
+         "headerImage": "imgs/tragos/RobRoy.svg",
+         "favorite": false
       },
       {
-         "name":"Rum Lemonade",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Rum Lemonade",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Ron Blanco",
             "Limonada",
             "Menta",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un recipiente 240ml de Ron Blanco.",
             "Agregar varias hojas de Menta.",
             "Tritúrar levemente.",
             "Añadir 720ml de limonada.",
             "Servir en vasos cortos con Hielo."
          ],
-         "imagen":"url(imgs/tragos-icons/RumLemonade.png)",
-         "headerImage":"imgs/tragos/Rum lemonade.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/RumLemonade.png)",
+         "headerImage": "imgs/tragos/Rumlemonade.svg",
+         "favorite": false
       },
       {
-         "name":"Ruso Negro",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Ruso Negro",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Vodka",
             "Licor de Café",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso varios hielos.",
             "Agregar 100ml Vodka.",
             "Agregar 50ml de Licor de Café.",
             "Por último mezclar todo."
          ],
-         "imagen":"url(imgs/tragos-icons/rusoNegro.png)",
-         "headerImage":"imgs/tragos/ruso negro.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/rusoNegro.png)",
+         "headerImage": "imgs/tragos/rusonegro.svg",
+         "favorite": false
       },
       {
-         "name":"Salty Chihuahua con Limón",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Salty Chihuahua con Limón",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Limonada",
             "Jugo de Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso Hielo.",
             "Agregar 1,5 medida de Tequila.",
-            "Agregar 5 medidas de limonada.", 
+            "Agregar 5 medidas de limonada.",
             "Agregar 1 toque de Jugo de Limón.",
             "Revolver."
          ],
-         "imagen":"url(imgs/tragos-icons/SaltyChihuahuaConLimon.png)",
-         "headerImage":"imgs/tragos/Salty Chihuahua con limón.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/SaltyChihuahuaConLimon.png)",
+         "headerImage": "imgs/tragos/SaltyChihuahuaconlimón.svg",
+         "favorite": false
       },
       {
-         "name":"Sandía con Vodka",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Sandía con Vodka",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Gaseosa Lima Limón",
             "Limón",
             "Sandía",
             "Jugo de Frutilla"
          ],
-         "preparacion":[
+         "preparacion": [
             "Cortar y calar una Sandía.",
             "Triturar parte de la pulpa y colocalar dentro de la Sandía.",
             "Verter 300ml de Vodka.",
@@ -2126,21 +2126,21 @@ export function initializeFavorites() {
             "Completar con Gaseosa Lima Limón.",
             "Puedes agregar Jugo de Frutilla a gusto."
          ],
-         "imagen":"url(imgs/tragos-icons/sandiaConVodka.png)",
-         "headerImage":"imgs/tragos/sandia con vodka.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/sandiaConVodka.png)",
+         "headerImage": "imgs/tragos/sandiaconvodka.svg",
+         "favorite": false
       },
       {
-         "name":"Sangre y Arena",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Sangre y Arena",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Whisky",
             "Vermouth Rosso",
             "Brandy",
             "Jugo de Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 22ml de Whisky.",
             "Agregar 22ml de Vermouth Rosso.",
@@ -2150,14 +2150,14 @@ export function initializeFavorites() {
             "Colar y servir en vasos de cóctel bien fríos.",
             "Adornar con piel de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/SangreyArena.png)",
-         "headerImage":"imgs/tragos/Sangre y Arena.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/SangreyArena.png)",
+         "headerImage": "imgs/tragos/SangreyArena.svg",
+         "favorite": false
       },
       {
-         "name":"Sangría con Cerveza",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Sangría con Cerveza",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Triple Sec",
             "Jugo de Limón",
@@ -2167,7 +2167,7 @@ export function initializeFavorites() {
             "Rubia Lager",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Verter en un vaso largo 45ml de Tequila.",
             "Agregar 30ml de licor Triple Sec.",
             "Agregar 30ml de Jugo de Limón.",
@@ -2176,14 +2176,14 @@ export function initializeFavorites() {
             "Finalmente rellenar con cerveza Rubia Lager.",
             "Decorar con los trozos de Durazno."
          ],
-         "imagen":"url(imgs/tragos-icons/SangriaConCerveza.png)",
-         "headerImage":"imgs/tragos/Sangria Con Cerveza.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/SangriaConCerveza.png)",
+         "headerImage": "imgs/tragos/SangriaConCerveza.svg",
+         "favorite": false
       },
       {
-         "name":"Sangrita",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Sangrita",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jugo de Naranja",
             "Jugo de Tomate",
             "Jugo de Lima",
@@ -2192,7 +2192,7 @@ export function initializeFavorites() {
             "Tequila Blanco",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 125ml Jugo de Naranja.",
             "Agregar 125ml de Jugo de Tomate.",
@@ -2202,14 +2202,14 @@ export function initializeFavorites() {
             "Agitar bien.",
             "Servir y acompañar con un chupito de Tequila."
          ],
-         "imagen":"url(imgs/tragos-icons/Sangrita.png)",
-         "headerImage":"imgs/tragos/Sangrita.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Sangrita.png)",
+         "headerImage": "imgs/tragos/Sangrita.svg",
+         "favorite": false
       },
       {
-         "name":"Santo Limento",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Santo Limento",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Champagne",
             "Pepino",
@@ -2217,63 +2217,63 @@ export function initializeFavorites() {
             "Menta",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una copa Hielo.",
             "Agregar 1 parte de Americano Gancia.",
             "Agregar un gajo de Lima exprimido.",
             "Completar con Champagne.",
             "Decorar con láminas de Pepino y una rama de Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/SantoLimento.png)",
-         "headerImage":"imgs/tragos/Santo Limento.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/SantoLimento.png)",
+         "headerImage": "imgs/tragos/SantoLimento.svg",
+         "favorite": false
       },
       {
-         "name":"Submarino",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Submarino",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Rubia Lager"
          ],
-         "preparacion":[
+         "preparacion": [
             "En un tarro de cerveza voltear un chupito de Tequila.",
-            "Llenar con cerveza Rubia Lager.",
+            "Llenar con cerveza Rubia Lager."
          ],
-         "imagen":"url(imgs/tragos-icons/Submarino.png)",
-         "headerImage":"imgs/tragos/Submarino.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Submarino.png)",
+         "headerImage": "imgs/tragos/Submarino.svg",
+         "favorite": false
       },
       {
-         "name":"Surfer On Acid",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Surfer On Acid",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Malibu",
             "Jägermeister",
             "Jugo de Ananá",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera 30ml de Malibu.",
             "Agregar 30ml de Jägermeister.",
             "Agregar 30ml de Jugo de Ananá.",
             "Agitar fuerte y vertir en un vaso old fashioned con Hielo.",
             "Decorar a gusto."
          ],
-         "imagen":"url(imgs/tragos-icons/SurferOnAcid.png)",
-         "headerImage":"imgs/tragos/Surfer On Acid.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/SurferOnAcid.png)",
+         "headerImage": "imgs/tragos/SurferOnAcid.svg",
+         "favorite": false
       },
       {
-         "name":"Tequila Oasis",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Tequila Oasis",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Oro",
             "Triple Sec",
             "jugo de Arándano",
             "Jugo de Naranja",
             "Limón"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 30ml de Tequila.",
             "Agregar 15ml Triple Sec.",
@@ -2283,14 +2283,14 @@ export function initializeFavorites() {
             "Colar en una copa tipo Martini.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/TequilaOasis.png)",
-         "headerImage":"imgs/tragos/Tequila oasis.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/TequilaOasis.png)",
+         "headerImage": "imgs/tragos/Tequilaoasis.svg",
+         "favorite": false
       },
       {
-         "name":"Tequila Sunrise",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Tequila Sunrise",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Naranja",
             "Granadina",
@@ -2298,7 +2298,7 @@ export function initializeFavorites() {
             "Guinda",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo picado.",
             "Agregar 50ml de Tequila.",
             "Agregar 100ml de Jugo de Naranja.",
@@ -2307,19 +2307,19 @@ export function initializeFavorites() {
             "Verter rápidamente los 25ml de Granadina, para que caiga al fondo del vaso y vaya subiendo lentamente (así conseguirá un efecto de amanecer).",
             "Adornar con la rodaja de Limón, la Guinda y un sorbete."
          ],
-         "imagen":"url(imgs/tragos-icons/tequilaSunrise.png)",
-         "headerImage":"imgs/tragos/tequila sunrise.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/tequilaSunrise.png)",
+         "headerImage": "imgs/tragos/tequilasunrise.svg",
+         "favorite": false
       },
       {
-         "name":"Tequini",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Tequini",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Vermouth Seco",
             "Salsa Tabasco"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 50ml de Tequila.",
             "Agregar 20ml de Vermouth Seco.",
@@ -2328,34 +2328,34 @@ export function initializeFavorites() {
             "Colar sobre una copa de estilo martini.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/Tequini.png)",
-         "headerImage":"imgs/tragos/Tequini.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Tequini.png)",
+         "headerImage": "imgs/tragos/Tequini.svg",
+         "favorite": false
       },
       {
-         "name":"The Sweet Deer",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "The Sweet Deer",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Jägermeister",
             "Gaseosa Cola",
             "Helado de Vainilla",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso hielo.",
             "Agregar 30ml Jägermeister.",
             "Completar con Gaseosa Cola.",
             "Una vez lleno colocar una cucharada grande de Helado de Vainilla",
             "Decorar a gusto."
          ],
-         "imagen":"url(imgs/tragos-icons/TheSweetDeer.png)",
-         "headerImage":"imgs/tragos/The Sweet Deer.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/TheSweetDeer.png)",
+         "headerImage": "imgs/tragos/TheSweetDeer.svg",
+         "favorite": false
       },
       {
-         "name":"Tictoc Del Reloj",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Tictoc Del Reloj",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Tequila Blanco",
             "Jugo de Limón",
             "Jarabe de Jengibre",
@@ -2363,7 +2363,7 @@ export function initializeFavorites() {
             "Hielo",
             "Menta"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera 45ml Tequila.",
             "Agregar 30ml Jugo de Limón.",
             "Agregar 30ml Jarabe de Jengibre.",
@@ -2372,21 +2372,21 @@ export function initializeFavorites() {
             "Colar en un vaso lleno de cubos de Hielo.",
             "Decorar con unas ramita de Menta."
          ],
-         "imagen":"url(imgs/tragos-icons/TictocDelReloj.png)",
-         "headerImage":"imgs/tragos/TictocDelReloj.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/TictocDelReloj.png)",
+         "headerImage": "imgs/tragos/TictocDelReloj.svg",
+         "favorite": false
       },
       {
-         "name":"Tom collins",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Tom collins",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Gin",
             "Jugo de Limón",
             "Azúcar",
             "Soda",
             "Limón"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Gin.",
             "Agregar 30ml Jugo de Limón y 1 cdta. de Azúcar.",
@@ -2395,14 +2395,14 @@ export function initializeFavorites() {
             "Rellenar con Soda.",
             "Decorar con una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/tomCollins.png)",
-         "headerImage":"imgs/tragos/tom collins.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/tomCollins.png)",
+         "headerImage": "imgs/tragos/tomcollins.svg",
+         "favorite": false
       },
       {
-         "name":"Vendetta",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Vendetta",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Americano Gancia",
             "Champagne",
             "Licor de Cassis",
@@ -2410,21 +2410,21 @@ export function initializeFavorites() {
             "Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una copa Hielo.",
             "Agregar 1 parte de Americano Gancia.",
             "Agregar 1,5 partes de Champagne.",
             "Completar con 0,5 partes de Licor de Cassis.",
             "Decorar con Frutos Rojos y una piel de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/Vendetta.png)",
-         "headerImage":"imgs/tragos/Vendetta.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Vendetta.png)",
+         "headerImage": "imgs/tragos/Vendetta.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka con Frutilla",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka con Frutilla",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Ron Blanco",
             "Licor de Frutilla",
@@ -2432,7 +2432,7 @@ export function initializeFavorites() {
             "Granadina",
             "Frutilla"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir dentro de una coctelera Hielo.",
             "Agregar 45ml de Vodka.",
             "Agregar 45ml de Ron Blanco.",
@@ -2443,49 +2443,49 @@ export function initializeFavorites() {
             "Colar y servir en la copa de cóctel.",
             "Usar una Frutilla para adornar."
          ],
-         "imagen":"url(imgs/tragos-icons/VodkaConFrutilla.png)",
-         "headerImage":"imgs/tragos/Vodka con frutilla.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/VodkaConFrutilla.png)",
+         "headerImage": "imgs/tragos/Vodkaconfrutilla.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka con Sprite",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka con Sprite",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Gaseosa Lima Limón",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso hielos.",
             "Agregar 40% de  Vodka.",
             "Completar con Gaseosa Lima Limón y mezclar."
          ],
-         "imagen":"url(imgs/tragos-icons/VodkaConSprite.png)",
-         "headerImage":"imgs/tragos/Vodka con sprite.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/VodkaConSprite.png)",
+         "headerImage": "imgs/tragos/Vodkaconsprite.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka jelly: Gelatina de Frutilla y Vodka",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka jelly: Gelatina de Frutilla y Vodka",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Gelatina sabor Frutilla",
             "Agua"
          ],
-         "preparacion":[
+         "preparacion": [
             "Disolver la gelatina en 225ml de agua hirviendo.",
             "Una vez que se enfríe verter 50ml De Vodka.",
             "Seguidamente agregar 225ml de agua fría.",
             "Revolver y dejar que se solidifique."
          ],
-         "imagen":"url(imgs/tragos-icons/VodkaJelly.png)",
-         "headerImage":"imgs/tragos/Vodka jelly.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/VodkaJelly.png)",
+         "headerImage": "imgs/tragos/Vodkajelly.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka y Café con Frutas",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka y Café con Frutas",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Frutilla",
             "Naranja",
@@ -2493,7 +2493,7 @@ export function initializeFavorites() {
             "Vino Blanco",
             "Kiwi"
          ],
-         "preparacion":[
+         "preparacion": [
             "En una fuenta agregar 225g de frutas (Frutillas, Naranjas, kiwis).",
             "Agregar 400ml de Vodka.",
             "Completar con 300ml de Café.",
@@ -2502,20 +2502,20 @@ export function initializeFavorites() {
             "Finalmente, decorar con kiwis.",
             "Servir en copas largas."
          ],
-         "imagen":"url(imgs/tragos-icons/vodkaYCafe.png)",
-         "headerImage":"imgs/tragos/vodka y cafe.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/vodkaYCafe.png)",
+         "headerImage": "imgs/tragos/vodkaycafe.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka y Melón",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka y Melón",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Ron Blanco",
             "Licor de Melón",
             "Limonada"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir dentro de una coctelera Hielo picado.",
             "Agregar 50ml Vodka.",
             "Agregar 50ml de Licor de Melón.",
@@ -2523,14 +2523,14 @@ export function initializeFavorites() {
             "Colar la mezcla sobre una copa de cóctel con Hielo.",
             "Completar con la Limonada fría."
          ],
-         "imagen":"url(imgs/tragos-icons/vodkaYMelon.png)",
-         "headerImage":"imgs/tragos/vodka y melon.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/vodkaYMelon.png)",
+         "headerImage": "imgs/tragos/vodkaymelon.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka, Limón y Menta",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka, Limón y Menta",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Limón",
             "Menta",
@@ -2538,7 +2538,7 @@ export function initializeFavorites() {
             "Azúcar Moreno",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una licuadora o coctelera Hielo.",
             "Agregar 4 limones pelados.",
             "Agregar 500ml de agua.",
@@ -2550,14 +2550,14 @@ export function initializeFavorites() {
             "Servir en copas.",
             "Adornar con hojas de Menta y rodajas de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/VodkaLimonYMenta.png)",
-         "headerImage":"imgs/tragos/Vodka limon y menta.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/VodkaLimonYMenta.png)",
+         "headerImage": "imgs/tragos/Vodkalimonymenta.svg",
+         "favorite": false
       },
       {
-         "name":"Vodka Maracuya",
-         "clasificacion":"refrescante",
-         "ingredientes":[
+         "name": "Vodka Maracuya",
+         "clasificacion": "refrescante",
+         "ingredientes": [
             "Vodka",
             "Maracuyá",
             "Limón",
@@ -2565,7 +2565,7 @@ export function initializeFavorites() {
             "Hielo",
             "Pulpa de Maracuyá"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera jugo de 4 maracuyás.",
             "Agregar 300ml Vodka.",
             "Agitar durante un minuto.",
@@ -2574,21 +2574,21 @@ export function initializeFavorites() {
             "Servir en vasos llenos de Hielo.",
             "Decorar con 1 cdta. de pulpa de maracuyá y una rodaja de Limón."
          ],
-         "imagen":"url(imgs/tragos-icons/VodkaMaracuya.png)",
-         "headerImage":"imgs/tragos/VodkaMaracuya.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/VodkaMaracuya.png)",
+         "headerImage": "imgs/tragos/VodkaMaracuya.svg",
+         "favorite": false
       },
       {
-         "name":"Widow Maker",
-         "clasificacion":"aperitivo",
-         "ingredientes":[
+         "name": "Widow Maker",
+         "clasificacion": "aperitivo",
+         "ingredientes": [
             "Jägermeister",
             "Vodka",
             "Licor de Café",
             "Granadina",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 30ml de Jägermeister.",
             "Agregar 30ml de Vodka.",
@@ -2597,61 +2597,38 @@ export function initializeFavorites() {
             "Agitar unos 20 segundos.",
             "Servir en un vaso."
          ],
-         "imagen":"url(imgs/tragos-icons/WidowMaker.png)",
-         "headerImage":"imgs/tragos/Widow maker.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/WidowMaker.png)",
+         "headerImage": "imgs/tragos/Widowmaker.svg",
+         "favorite": false
       },
       {
-         "name":"Godmother",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Godmother",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Vodka",
             "Amaretto",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un vaso old fashion Hielo.",
             "Agregar 30ml de Vodka.",
             "Completar con 30ml de Amaretto.",
             "Mezclar todo."
          ],
-         "imagen":"url(imgs/tragos-icons/Godmother.png)",
-         "headerImage":"imgs/tragos/Godmother.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/Godmother.png)",
+         "headerImage": "imgs/tragos/Godmother.svg",
+         "favorite": false
       },
-      // {
-      //    "name":"Golden Dream",
-      //    "clasificacion":"digestivo",
-      //    "ingredientes":[
-      //       "Galliano",
-      //       "Cointreau",
-      //       "Jugo de Naranja",
-      //       "Crema",
-      //       "Hielo"
-      //    ],
-      //    "preparacion":[
-      //       "Añadir en una coctelera Hielo.",
-      //       "Agregar 30ml de Galliano.",
-      //       "Agregar 30ml de Cointreau.",
-      //       "Agregar 30ml de Jugo de Naranja.",
-      //       "Completar con 15ml de crema.",
-      //       "Agitar durante unos 20 segundos.",
-      //       "Servir en una copa Margarita fría."
-      //    ],
-      //    "imagen":"url(imgs/tragos-icons/GoldenDream.png)",
-      //    "headerImage":"imgs/tragos/GoldenDream.svg",
-      //    "favorite":false
-      // },
       {
-         "name":"María L´Orange",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "María L´Orange",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Tía María",
             "Triple Sec",
             "Jugo de Naranja",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 30ml de Tía María.",
             "Agregar 30ml de Triple Sec.",
@@ -2660,19 +2637,19 @@ export function initializeFavorites() {
             "Servir en una copa Martini.",
             "Decorar con una rodaja de Naranja."
          ],
-         "imagen":"url(imgs/tragos-icons/MariaLOrange.png)",
-         "headerImage":"imgs/tragos/MariaLOrange.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/MariaLOrange.png)",
+         "headerImage": "imgs/tragos/MariaLOrange.svg",
+         "favorite": false
       },
       {
-         "name":"Chocolate Martini",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "Chocolate Martini",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Vodka",
             "Crema de Cacao",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en una coctelera Hielo.",
             "Agregar 60ml de Vodka.",
             "Completar con 45ml de crema de cacao.",
@@ -2680,36 +2657,36 @@ export function initializeFavorites() {
             "Tomar una copa Martini y vertir un poco de salsa de chocolate en el borde interior (en forma de espiral).",
             "Finalmente, colar en contenido de la coctelera en la copa."
          ],
-         "imagen":"url(imgs/tragos-icons/ChocolateMartini.png)",
-         "headerImage":"imgs/tragos/ChocolateMartini.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/ChocolateMartini.png)",
+         "headerImage": "imgs/tragos/ChocolateMartini.svg",
+         "favorite": false
       },
       {
-         "name":"French Connection",
-         "clasificacion":"digestivo",
-         "ingredientes":[
+         "name": "French Connection",
+         "clasificacion": "digestivo",
+         "ingredientes": [
             "Brandy",
             "Amaretto",
             "Hielo"
          ],
-         "preparacion":[
+         "preparacion": [
             "Añadir en un Vaso Old fashion Hielo.",
             "Agregar 30ml de Brandy.",
             "Completar con 30ml de Amaretto."
          ],
-         "imagen":"url(imgs/tragos-icons/FrenchConnection.png)",
-         "headerImage":"imgs/tragos/FrenchConnection.svg",
-         "favorite":false
+         "imagen": "url(imgs/tragos-icons/FrenchConnection.png)",
+         "headerImage": "imgs/tragos/FrenchConnection.svg",
+         "favorite": false
       }
    ];
-    let storage = window.localStorage;
+   let storage = window.localStorage;
 
-    for (let i in tragos) {
-        let value = storage.getItem(tragos[i].name);
-        if (value) {
-            tragos[i].favorite = true;
-        }
-    }
+   for (let i in tragos) {
+      let value = storage.getItem(tragos[i].name);
+      if (value) {
+         tragos[i].favorite = true;
+      }
+   }
 
-    return tragos;
+   return tragos;
 }
