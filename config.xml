@@ -24,7 +24,7 @@
         <preference name="SplashShowOnlyFirstTime" value="true" />
         <!--  Needed for Android 12  -->
         <preference name="AndroidWindowSplashScreenAnimatedIcon"
-            value="res/screen/android/splash.png" />
+            value="res/icon/android/xxxhdpi-foreground.png" />
         <preference name="AndroidWindowSplashScreenBackground" value="#8F7CE5" />
         <icon src="res/icon/android/ldpi-foreground.png" density="ldpi" />
         <icon src="res/icon/android/mdpi-foreground.png" density="mdpi" />
